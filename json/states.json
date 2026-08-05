@@ -1,0 +1,538 @@
+{
+  "schema_version": "1.0.0",
+  "generated_on": "2026-08-04",
+  "source": "/json/cases.json",
+  "total_states_and_districts": 25,
+  "states": [
+    {
+      "state": "Alabama",
+      "case_count": 4,
+      "geocoded_case_count": 4,
+      "center": {
+        "latitude": 32.787447,
+        "longitude": -86.366189
+      },
+      "case_status_counts": {
+        "Missing": 4
+      },
+      "classification_counts": {
+        "Adult Man": 2,
+        "Adult Woman": 1,
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0031",
+        "BM-0032",
+        "BM-0050",
+        "BM-0053"
+      ]
+    },
+    {
+      "state": "Arizona",
+      "case_count": 2,
+      "geocoded_case_count": 2,
+      "center": {
+        "latitude": 33.454503,
+        "longitude": -112.384885
+      },
+      "case_status_counts": {
+        "Missing": 1,
+        "Presumed Deceased": 1
+      },
+      "classification_counts": {
+        "Adult Man": 1,
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0039",
+        "BM-0074"
+      ]
+    },
+    {
+      "state": "California",
+      "case_count": 5,
+      "geocoded_case_count": 5,
+      "center": {
+        "latitude": 36.790771,
+        "longitude": -120.745404
+      },
+      "case_status_counts": {
+        "Missing": 5
+      },
+      "classification_counts": {
+        "Child": 3,
+        "Adult Man": 1,
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0005",
+        "BM-0014",
+        "BM-0040",
+        "BM-0052",
+        "BM-0065"
+      ]
+    },
+    {
+      "state": "Colorado",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 40.423314,
+        "longitude": -104.709132
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Man": 1
+      },
+      "case_ids": [
+        "BM-0034"
+      ]
+    },
+    {
+      "state": "Florida",
+      "case_count": 3,
+      "geocoded_case_count": 3,
+      "center": {
+        "latitude": 26.111632,
+        "longitude": -81.135097
+      },
+      "case_status_counts": {
+        "Missing": 3
+      },
+      "classification_counts": {
+        "Child": 2,
+        "Adult Man": 1
+      },
+      "case_ids": [
+        "BM-0008",
+        "BM-0009",
+        "BM-0063"
+      ]
+    },
+    {
+      "state": "Georgia",
+      "case_count": 2,
+      "geocoded_case_count": 2,
+      "center": {
+        "latitude": 33.470971,
+        "longitude": -81.974843
+      },
+      "case_status_counts": {
+        "Missing": 2
+      },
+      "classification_counts": {
+        "Child": 2
+      },
+      "case_ids": [
+        "BM-0023",
+        "BM-0024"
+      ]
+    },
+    {
+      "state": "Illinois",
+      "case_count": 6,
+      "geocoded_case_count": 6,
+      "center": {
+        "latitude": 41.875562,
+        "longitude": -87.624421
+      },
+      "case_status_counts": {
+        "Missing": 6
+      },
+      "classification_counts": {
+        "Child": 3,
+        "Adult Woman": 2,
+        "Adult Man": 1
+      },
+      "case_ids": [
+        "BM-0003",
+        "BM-0004",
+        "BM-0021",
+        "BM-0055",
+        "BM-0056",
+        "BM-0060"
+      ]
+    },
+    {
+      "state": "Indiana",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 41.602096,
+        "longitude": -87.337065
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0025"
+      ]
+    },
+    {
+      "state": "Kansas",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 37.692236,
+        "longitude": -97.337545
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0018"
+      ]
+    },
+    {
+      "state": "Louisiana",
+      "case_count": 2,
+      "geocoded_case_count": 2,
+      "center": {
+        "latitude": 31.2795,
+        "longitude": -93.248436
+      },
+      "case_status_counts": {
+        "Missing": 2
+      },
+      "classification_counts": {
+        "Adult Woman": 2
+      },
+      "case_ids": [
+        "BM-0026",
+        "BM-0029"
+      ]
+    },
+    {
+      "state": "Maryland",
+      "case_count": 5,
+      "geocoded_case_count": 5,
+      "center": {
+        "latitude": 39.290882,
+        "longitude": -76.610759
+      },
+      "case_status_counts": {
+        "Missing": 4,
+        "Presumed Deceased": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 2,
+        "Child": 2,
+        "Elder": 1
+      },
+      "case_ids": [
+        "BM-0016",
+        "BM-0047",
+        "BM-0058",
+        "BM-0059",
+        "BM-0064"
+      ]
+    },
+    {
+      "state": "Michigan",
+      "case_count": 4,
+      "geocoded_case_count": 4,
+      "center": {
+        "latitude": 42.340756,
+        "longitude": -83.123157
+      },
+      "case_status_counts": {
+        "Missing": 4
+      },
+      "classification_counts": {
+        "Child": 3,
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0038",
+        "BM-0044",
+        "BM-0046",
+        "BM-0048"
+      ]
+    },
+    {
+      "state": "Mississippi",
+      "case_count": 2,
+      "geocoded_case_count": 2,
+      "center": {
+        "latitude": 31.584055,
+        "longitude": -89.225189
+      },
+      "case_status_counts": {
+        "Missing": 2
+      },
+      "classification_counts": {
+        "Adult Man": 1,
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0007",
+        "BM-0051"
+      ]
+    },
+    {
+      "state": "Missouri",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 38.793076,
+        "longitude": -90.206779
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0017"
+      ]
+    },
+    {
+      "state": "New Hampshire",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 42.765625,
+        "longitude": -71.467703
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Man": 1
+      },
+      "case_ids": [
+        "BM-0035"
+      ]
+    },
+    {
+      "state": "New York",
+      "case_count": 6,
+      "geocoded_case_count": 6,
+      "center": {
+        "latitude": 41.100046,
+        "longitude": -73.925885
+      },
+      "case_status_counts": {
+        "Missing": 6
+      },
+      "classification_counts": {
+        "Child": 4,
+        "Adult Woman": 1,
+        "LGBTQ+": 1
+      },
+      "case_ids": [
+        "BM-0010",
+        "BM-0011",
+        "BM-0012",
+        "BM-0027",
+        "BM-0036",
+        "BM-0041"
+      ]
+    },
+    {
+      "state": "North Carolina",
+      "case_count": 6,
+      "geocoded_case_count": 6,
+      "center": {
+        "latitude": 35.499988,
+        "longitude": -80.02591
+      },
+      "case_status_counts": {
+        "Missing": 6
+      },
+      "classification_counts": {
+        "Child": 3,
+        "Adult Woman": 2,
+        "Adult Man": 1
+      },
+      "case_ids": [
+        "BM-0001",
+        "BM-0037",
+        "BM-0067",
+        "BM-0068",
+        "BM-0069",
+        "BM-0071"
+      ]
+    },
+    {
+      "state": "Ohio",
+      "case_count": 2,
+      "geocoded_case_count": 2,
+      "center": {
+        "latitude": 39.96226,
+        "longitude": -83.000707
+      },
+      "case_status_counts": {
+        "Missing": 2
+      },
+      "classification_counts": {
+        "Adult Woman": 1,
+        "LGBTQ+": 1
+      },
+      "case_ids": [
+        "BM-0057",
+        "BM-0062"
+      ]
+    },
+    {
+      "state": "South Carolina",
+      "case_count": 4,
+      "geocoded_case_count": 4,
+      "center": {
+        "latitude": 33.984827,
+        "longitude": -80.808234
+      },
+      "case_status_counts": {
+        "Missing": 4
+      },
+      "classification_counts": {
+        "Adult Woman": 2,
+        "Child": 2
+      },
+      "case_ids": [
+        "BM-0022",
+        "BM-0028",
+        "BM-0049",
+        "BM-0061"
+      ]
+    },
+    {
+      "state": "Tennessee",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 36.162277,
+        "longitude": -86.774298
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0019"
+      ]
+    },
+    {
+      "state": "Texas",
+      "case_count": 5,
+      "geocoded_case_count": 5,
+      "center": {
+        "latitude": 31.357187,
+        "longitude": -95.478983
+      },
+      "case_status_counts": {
+        "Missing": 5
+      },
+      "classification_counts": {
+        "Adult Man": 2,
+        "Adult Woman": 1,
+        "Child": 1,
+        "Elder": 1
+      },
+      "case_ids": [
+        "BM-0033",
+        "BM-0043",
+        "BM-0054",
+        "BM-0066",
+        "BM-0075"
+      ]
+    },
+    {
+      "state": "Virginia",
+      "case_count": 4,
+      "geocoded_case_count": 4,
+      "center": {
+        "latitude": 37.661208,
+        "longitude": -77.694879
+      },
+      "case_status_counts": {
+        "Missing": 3,
+        "Presumed Deceased": 1
+      },
+      "classification_counts": {
+        "Adult Man": 1,
+        "Adult Woman": 1,
+        "Child": 1,
+        "LGBTQ+": 1
+      },
+      "case_ids": [
+        "BM-0042",
+        "BM-0070",
+        "BM-0072",
+        "BM-0073"
+      ]
+    },
+    {
+      "state": "Washington",
+      "case_count": 3,
+      "geocoded_case_count": 3,
+      "center": {
+        "latitude": 47.212086,
+        "longitude": -122.525241
+      },
+      "case_status_counts": {
+        "Missing": 3
+      },
+      "classification_counts": {
+        "Child": 2,
+        "Adult Man": 1
+      },
+      "case_ids": [
+        "BM-0006",
+        "BM-0030",
+        "BM-0045"
+      ]
+    },
+    {
+      "state": "Washington D.C.",
+      "case_count": 3,
+      "geocoded_case_count": 3,
+      "center": {
+        "latitude": 38.89511,
+        "longitude": -77.03637
+      },
+      "case_status_counts": {
+        "Missing": 2,
+        "Presumed Deceased": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 2,
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0002",
+        "BM-0015",
+        "BM-0020"
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 43.038648,
+        "longitude": -87.909075
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0013"
+      ]
+    }
+  ]
+}

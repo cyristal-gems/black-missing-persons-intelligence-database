@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A source-backed public database documenting missing Black persons cases across the United States.">
+  <meta name="theme-color" content="#111018">
+  <title>Black Missing Persons Intelligence Database</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css?v=20260804ab">
+  <script src="/assets/site.js?v=20260804ab" defer></script>
+</head>
+<body data-page="dashboard">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="/" aria-label="Black Missing Persons Intelligence Database home"><span class="brand-title">Black Missing Persons Intelligence Database</span></a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a aria-current="page" href="/">Dashboard</a>
+        <a href="/methodology/">Methodology</a>
+        <a href="/reference/">Reference</a>
+      </nav>
+      <a class="button button-small" href="/cases/">Browse cases</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <h1>Mapping the Missing.<br><span>Preserving Every Story.</span></h1>
+          <p class="hero-copy">This database brings verified case details, sources, and location data together in one place so each person’s story remains visible and easier to research.</p>
+          <ul class="hero-principles" aria-label="Database principles">
+            <li>Verified sources</li>
+            <li>Location context</li>
+            <li>Open public data</li>
+          </ul>
+        </div>
+        <aside class="hero-panel" aria-label="Database scope">
+          <div class="hero-panel-top">
+            <span>Database scope</span>
+            <span class="live-label">● Live dataset</span>
+          </div>
+          <dl class="scope-list">
+            <div><dt>Case records</dt><dd id="scope-cases">75</dd></div>
+            <div><dt>States &amp; districts</dt><dd id="scope-states">25</dd></div>
+            <div><dt>Missing since</dt><dd id="scope-years">1970–2024</dd></div>
+            <div><dt>Geocoded records</dt><dd id="scope-geocoded">100%</dd></div>
+          </dl>
+          <p class="panel-note">Each record connects readers to active primary and secondary sources. Classifications reflect the available public record.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="dashboard-section" aria-labelledby="dashboard-title">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">National overview</p>
+            <h2 id="dashboard-title">Database overview</h2>
+          </div>
+          <p>Review where people were last seen, how cases are classified, and when each disappearance was reported.</p>
+        </div>
+
+        <div class="metric-grid" aria-label="Database statistics">
+          <article class="metric-card"><span>Adult men</span><strong id="metric-men">14</strong><small>classified as Adult Man</small></article>
+          <article class="metric-card"><span>Adult women</span><strong id="metric-women">22</strong><small>classified as Adult Woman</small></article>
+          <article class="metric-card"><span>Children</span><strong id="metric-children">34</strong><small>classified as Child</small></article>
+          <article class="metric-card"><span>LGBTQ+</span><strong id="metric-lgbtq">3</strong><small>classified as LGBTQ+</small></article>
+        </div>
+
+        <div class="dashboard-grid">
+          <article class="panel map-panel">
+            <div class="panel-heading">
+              <div><p class="panel-kicker">Location overview</p><h3>Last-seen locations</h3></div>
+              <a href="/cases/">View directory <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="map-wrap">
+              <p id="map-help" class="map-help">Use + and − to zoom in or out. Drag the map to explore every marker, and select “Fit all” to return to the full view.</p>
+              <svg id="case-map" class="case-map" viewBox="0 0 1000 620" role="img" tabindex="0" aria-labelledby="map-title map-description" aria-describedby="map-help">
+                <title id="map-title">United States map of generalized case locations</title>
+                <desc id="map-description">An accurate map of the 50 states and District of Columbia using U.S. Census Bureau boundaries. Markers represent city-level last-seen locations.</desc>
+              </svg>
+              <div class="map-controls" role="group" aria-label="Map zoom controls">
+                <button id="map-zoom-in" type="button" aria-label="Zoom in" title="Zoom in">+</button>
+                <button id="map-zoom-out" type="button" aria-label="Zoom out" title="Zoom out">−</button>
+                <button id="map-reset" type="button" aria-label="Fit the full map" title="Fit the full map">Fit all</button>
+              </div>
+              <div id="map-tooltip" class="map-tooltip" role="status" aria-live="polite" hidden></div>
+              <div class="map-legend"><span></span> Generalized last-seen location</div>
+              <a class="map-attribution" href="https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/15">Boundaries: U.S. Census Bureau TIGERweb</a>
+            </div>
+          </article>
+
+          <article class="panel classification-panel">
+            <div class="panel-heading"><div><p class="panel-kicker">Case classifications</p><h3>By classification</h3></div></div>
+            <div id="classification-chart" class="bar-chart" aria-label="Cases by classification"></div>
+          </article>
+
+          <article class="panel year-panel">
+            <div class="panel-heading"><div><p class="panel-kicker">Cases over time</p><h3>Cases by year</h3></div><span class="range-label">1970–2024</span></div>
+            <div id="year-chart" class="year-chart" aria-label="Cases by missing year"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><a class="brand footer-brand" href="/"><span class="brand-title">Black Missing Persons Intelligence Database</span></a><p>Mapping the Missing. Preserving Every Story.</p></div>
+      <div><h2>Explore</h2><a href="/cases/">Case directory</a><a href="/about/">About</a><a href="/methodology/">Methodology</a><a href="/reference/">Reference guides</a></div>
+      <div><h2>Connect with the creator</h2><div class="social-links"><a class="social-icon" href="https://www.linkedin.com/in/cyristalj" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.3 3.7A2.3 2.3 0 1 1 5.3 8a2.3 2.3 0 0 1 0-4.6ZM3.4 9.7h3.8V21H3.4V9.7Zm6.2 0h3.6v1.6h.1c.5-.9 1.7-2 3.6-2 3.9 0 4.6 2.5 4.6 5.9V21h-3.8v-5.1c0-1.2 0-2.8-1.8-2.8s-2 1.3-2 2.7V21H9.6V9.7Z"/></svg></a><a class="social-icon" href="https://github.com/cyristal-gems" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 0 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.7-1.3-2.3-.3-4.7-1.1-4.7-5A3.9 3.9 0 0 1 6.8 8c-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.8 1.1a9.8 9.8 0 0 1 5.1 0c1.9-1.4 2.8-1.1 2.8-1.1.6 1.4.2 2.4.1 2.7a3.9 3.9 0 0 1 1.1 2.8c0 3.9-2.4 4.7-4.7 5 .4.3.7 1 .7 2V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg></a><a class="social-icon" href="mailto:cyrisjoseph@outlook.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm9 8 8-5V7l-8 5-8-5v1l8 5Z"/></svg></a></div></div>
+    </div>
+    <div class="shell footer-bottom"><p>For informational and public-awareness purposes. Submit tips directly to the investigating agency.</p><p>© <span data-current-year></span> Black Missing Persons Intelligence Database</p></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1813 @@
+{
+  "type": "FeatureCollection",
+  "name": "black_missing_person_cases",
+  "metadata": {
+    "schema_version": "1.0.0",
+    "generated_on": "2026-08-04",
+    "source": "/json/cases.json",
+    "feature_count": 75,
+    "coordinate_order": "longitude, latitude"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BM-0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.535646,
+          35.292351
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0001",
+        "full_name": "Asha Jaquilla Degree",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2000-02-14",
+        "city": "Shelby",
+        "state": "North Carolina",
+        "case_summary_short": "Left her home during the early morning hours and was later seen walking along Highway 18 before disappearing. Her backpack was recovered over a year later, but she has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0001.jpg",
+        "document_path": "/docs/BM-0001.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03637,
+          38.89511
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0002",
+        "full_name": "Relisha Tenau Rudd",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2014-03-01",
+        "city": "Washington D.C.",
+        "state": "Washington D.C.",
+        "case_summary_short": "Was last seen in Washington, D.C., while in the care of Kahlil Malik Tatum after her family had lived in a homeless shelter for more than a year. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0002.jpg",
+        "document_path": "/docs/BM-0002.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624421,
+          41.875562
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0003",
+        "full_name": "Tionda Z. Bradley",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2001-07-06",
+        "city": "Chicago",
+        "state": "Illinois",
+        "case_summary_short": "Was last seen at her family's South Lake Park Avenue residence after her mother left for work around 6:30 a.m. She has not been seen since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0003.jpeg",
+        "document_path": "/docs/BM-0003.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624421,
+          41.875562
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0004",
+        "full_name": "Diamond Yvette Bradley",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2001-07-06",
+        "city": "Chicago",
+        "state": "Illinois",
+        "case_summary_short": "Was last seen at her family's South Lake Park Avenue residence after her mother left for work around 6:30 a.m. She has not been seen since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0004.jpeg",
+        "document_path": "/docs/BM-0004.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271356,
+          37.804456
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0005",
+        "full_name": "Arianna Fitts",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2016-02-01",
+        "city": "Oakland",
+        "state": "California",
+        "case_summary_short": "Disappeared as a toddler two months before her mother, Nicole Fitts, vanished after leaving work in San Francisco. Neither mother nor daughter has been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0005.jpg",
+        "document_path": "/docs/BM-0005.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.438329,
+          47.245501
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0006",
+        "full_name": "Teekah Latres Lewis",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Stranger Abduction",
+        "missing_date": "1999-01-23",
+        "city": "Tacoma",
+        "state": "Washington",
+        "case_summary_short": "Was spending the evening at a Tacoma bowling alley with nearly a dozen relatives when she disappeared. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0006.jpeg",
+        "document_path": "/docs/BM-0006.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.838692,
+          32.782356
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0007",
+        "full_name": "Myra Rena Lewis",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2014-03-01",
+        "city": "Camden",
+        "state": "Mississippi",
+        "case_summary_short": "Was last seen playing outside her home before her mother left for the grocery store and told the children to go inside. She vanished during that period and remains missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0007.jpeg",
+        "document_path": "/docs/BM-0007.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.193597,
+          25.774157
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0008",
+        "full_name": "Rilya Shenise Wilson",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Suspected Homicide",
+        "missing_date": "2001-01-18",
+        "city": "Miami",
+        "state": "Florida",
+        "case_summary_short": "Had been placed with an alleged grandmother or godmother after being removed from her mother's custody. She later disappeared while in that woman's care, and the case is investigated as a suspected homicide.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0008.jpeg",
+        "document_path": "/docs/BM-0008.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4174,
+          26.41854
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0009",
+        "full_name": "Adji Desir",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2009-01-10",
+        "city": "Immokalee",
+        "state": "Florida",
+        "case_summary_short": "Was left at his grandmother's home in Farm Workers Village while his mother went to work. He was last seen around 5:15 p.m. and has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0009.jpeg",
+        "document_path": "/docs/BM-0009.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.49939,
+          43.090351
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0010",
+        "full_name": "Jaliek L. Rainwalker",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2007-11-01",
+        "city": "Greenwich",
+        "state": "New York",
+        "case_summary_short": "Was last seen at his adoptive grandparents' home, where he spent the night alone with his adoptive father. He has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0010.jpeg",
+        "document_path": "/docs/BM-0010.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985532,
+          40.757955
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0011",
+        "full_name": "Christopher Milton Dansby",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Stranger Abduction",
+        "missing_date": "1989-05-18",
+        "city": "Manhattan",
+        "state": "New York",
+        "case_summary_short": "Disappeared from the Martin Luther King Jr. Towers playground in Harlem. He has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0011.jpg",
+        "document_path": "/docs/BM-0011.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985532,
+          40.757955
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0012",
+        "full_name": "Shane Anthony Walker",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Stranger Abduction",
+        "missing_date": "1989-08-10",
+        "city": "Manhattan",
+        "state": "New York",
+        "case_summary_short": "Disappeared from the Martin Luther King Jr. Towers playground in Harlem while accompanied by his mother. He has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0012.jpg",
+        "document_path": "/docs/BM-0012.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.909075,
+          43.038648
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0013",
+        "full_name": "Alexis S. Patterson",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2002-05-03",
+        "city": "Milwaukee",
+        "state": "Wisconsin",
+        "case_summary_short": "Her stepfather said he walked her to Hi-Mount Boulevard School around 8:00 a.m. She was not seen again.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0013.jpg",
+        "document_path": "/docs/BM-0013.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271356,
+          37.804456
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0014",
+        "full_name": "Hassani Jamil Campbell",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2009-08-10",
+        "city": "Oakland",
+        "state": "California",
+        "case_summary_short": "Was reportedly last seen in Oakland's Rockridge district around 4:15 p.m. No confirmed trace of him has been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0014.jpg",
+        "document_path": "/docs/BM-0014.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03637,
+          38.89511
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0015",
+        "full_name": "Unique RaQuel-Leona Harris",
+        "case_status": "Presumed Deceased",
+        "classification": "Adult Woman",
+        "case_classification": "Suspected Homicide",
+        "missing_date": "2010-10-09",
+        "city": "Washington D.C.",
+        "state": "Washington D.C.",
+        "case_summary_short": "Was last seen at the Washington, D.C., apartment she shared with her two young sons only five weeks after moving in. She is presumed deceased but has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0015.jpg",
+        "document_path": "/docs/BM-0015.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.610759,
+          39.290882
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0016",
+        "full_name": "Akia Shawnta Eggleston",
+        "case_status": "Presumed Deceased",
+        "classification": "Adult Woman",
+        "case_classification": "Suspected Homicide",
+        "missing_date": "2017-05-03",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "case_summary_short": "Withdrew more than $500 from a Baltimore bank shortly before she vanished, an amount considered unusual for her. She is presumed deceased but has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0016.jpg",
+        "document_path": "/docs/BM-0016.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.206779,
+          38.793076
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0017",
+        "full_name": "Phoenix Lucille Coldon",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2011-12-18",
+        "city": "Spanish Lake",
+        "state": "Missouri",
+        "case_summary_short": "Was sitting in her car in the driveway before her father watched her drive away around 2:20 p.m. She has never been seen again.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0017.jpg",
+        "document_path": "/docs/BM-0017.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.337545,
+          37.692236
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0018",
+        "full_name": "Jaquilla Evonne Scales",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2001-09-05",
+        "city": "Wichita",
+        "state": "Kansas",
+        "case_summary_short": "Was seen asleep in her bed around 12:30 a.m. and discovered missing approximately two and a half hours later. She has never been seen again.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0018.jpg",
+        "document_path": "/docs/BM-0018.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.774298,
+          36.162277
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0019",
+        "full_name": "Laresha Deana Walker",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1999-11-19",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "case_summary_short": "Dropped her two-year-old son off at her sister's Nashville home for the night. She disappeared afterward and has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0019.jpg",
+        "document_path": "/docs/BM-0019.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03637,
+          38.89511
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0020",
+        "full_name": "Pamela J. Butler",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Suspected Homicide",
+        "missing_date": "2009-02-12",
+        "city": "Washington D.C.",
+        "state": "Washington D.C.",
+        "case_summary_short": "Was last seen speaking with her boyfriend, Jose Angel Rodriguez-Cruz, at her Washington, D.C., home around 9:48 p.m. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0020.png",
+        "document_path": "/docs/BM-0020.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624421,
+          41.875562
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0021",
+        "full_name": "Kierra Michelle Coles",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2018-10-02",
+        "city": "Chicago",
+        "state": "Illinois",
+        "case_summary_short": "Never arrived at the post office where she worked after calling in sick that day. She has not been heard from again.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0021.jpg",
+        "document_path": "/docs/BM-0021.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.371158,
+          34.416551
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0022",
+        "full_name": "Shakeima Ann Cabbagestalk",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "1993-07-22",
+        "city": "Dillon",
+        "state": "South Carolina",
+        "case_summary_short": "Was last seen leaving with her stepfather to visit a grocery store in Dillon. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0022.jpg",
+        "document_path": "/docs/BM-0022.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.974843,
+          33.470971
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0023",
+        "full_name": "Jeannette Latrice Millbrook",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1990-03-18",
+        "city": "Augusta",
+        "state": "Georgia",
+        "case_summary_short": "Was last seen with her twin sister at a Pump-N-Shop gas station in Augusta. Neither sister has ever been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0023.jpg",
+        "document_path": "/docs/BM-0023.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.974843,
+          33.470971
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0024",
+        "full_name": "Dannette Latonia Millbrook",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1990-03-18",
+        "city": "Augusta",
+        "state": "Georgia",
+        "case_summary_short": "Was last seen with her twin sister at a Pump-N-Shop gas station in Augusta. Neither sister has ever been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0024.jpg",
+        "document_path": "/docs/BM-0024.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.337065,
+          41.602096
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0025",
+        "full_name": "Diamond Daisy Bobbie Monet Bynum",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2015-07-25",
+        "city": "Gary",
+        "state": "Indiana",
+        "case_summary_short": "Disappeared from Gary with her young nephew, King Walker, during one of his regular weekend visits with relatives. Neither has been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0025.jpg",
+        "document_path": "/docs/BM-0025.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.216981,
+          30.23051
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0026",
+        "full_name": "LaKisha Shantella Taylor",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2008-06-13",
+        "city": "Lake Charles",
+        "state": "Louisiana",
+        "case_summary_short": "Was gone when her cousin returned to their Lake Charles home after going out for breakfast. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0026.jpg",
+        "document_path": "/docs/BM-0026.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.149605,
+          40.583456
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0027",
+        "full_name": "Shameeka M. Gordon-Dixon",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2004-04-21",
+        "city": "Staten Island",
+        "state": "New York",
+        "case_summary_short": "Left a relative's Staten Island home around 1:30 a.m. to visit a friend and never returned. She has not been heard from since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0027.jpg",
+        "document_path": "/docs/BM-0027.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.17627,
+          33.01867
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0028",
+        "full_name": "Adrean Sade Capers",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2020-03-28",
+        "city": "Summerville",
+        "state": "South Carolina",
+        "case_summary_short": "Was last seen at a Summerville motel after a heated argument with her husband. She has never been heard from again.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0028.jpg",
+        "document_path": "/docs/BM-0028.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.279892,
+          32.32849
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0029",
+        "full_name": "Kimberly Moore",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2022-12-31",
+        "city": "Ringgold",
+        "state": "Louisiana",
+        "case_summary_short": "Was last seen at a New Year's Eve party in Ringgold while living with Vernon Parker after a recent move from Dallas. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0029.jpg",
+        "document_path": "/docs/BM-0029.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.910368,
+          47.008066
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0030",
+        "full_name": "Logan Drew Schiendelman",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2016-05-19",
+        "city": "Tumwater",
+        "state": "Washington",
+        "case_summary_short": "Was last seen in Tumwater and has never been heard from again. No confirmed trace of him has been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0030.jpg",
+        "document_path": "/docs/BM-0030.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.101389,
+          33.434722
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0031",
+        "full_name": "Stacey Lynch",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2020-12-22",
+        "city": "Talladega",
+        "state": "Alabama",
+        "case_summary_short": "Left his Talladega apartment and was never heard from again. A vehicle believed to be connected to his disappearance was later found abandoned and burned.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0031.jpg",
+        "document_path": "/docs/BM-0031.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.74521,
+          32.959642
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0032",
+        "full_name": "Robert Lee Archie",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2001-12-19",
+        "city": "Jemison",
+        "state": "Alabama",
+        "case_summary_short": "Left his Jemison residence for a walk along Chilton County Road 785 and never returned. He has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0032.jpg",
+        "document_path": "/docs/BM-0032.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.367697,
+          29.758938
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0033",
+        "full_name": "Chris Frank",
+        "case_status": "Missing",
+        "classification": "Elder",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1996-09-10",
+        "city": "Houston",
+        "state": "Texas",
+        "case_summary_short": "Disappeared after being released from jail in Houston. He has never been heard from again.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0033.jpg",
+        "document_path": "/docs/BM-0033.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.709132,
+          40.423314
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0034",
+        "full_name": "Steven Curtis Talley",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2024-07-04",
+        "city": "Greeley",
+        "state": "Colorado",
+        "case_summary_short": "Last spoke with his family while believed to be in Greeley, after which their daily attempts to reach him went unanswered. He has never been heard from again.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0034.jpg",
+        "document_path": "/docs/BM-0034.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.467703,
+          42.765625
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0035",
+        "full_name": "Michael Anthony McClain",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2019-04-20",
+        "city": "Nashua",
+        "state": "New Hampshire",
+        "case_summary_short": "Was last seen at the Tropical Lounge in Nashua while out with friends. He has not been heard from since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0035.jpg",
+        "document_path": "/docs/BM-0035.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985532,
+          40.757955
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0036",
+        "full_name": "Edmond Tillman",
+        "case_status": "Missing",
+        "classification": "LGBTQ+",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2005-08-10",
+        "city": "Manhattan",
+        "state": "New York",
+        "case_summary_short": "Was last seen near Houston and Pitt Streets in Manhattan around 7:00 p.m. No further circumstances have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0036.jpg",
+        "document_path": "/docs/BM-0036.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.791975,
+          36.072635
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0037",
+        "full_name": "Tyarra Cacique Williams",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2016-01-07",
+        "city": "Greensboro",
+        "state": "North Carolina",
+        "case_summary_short": "Left the Stoneybrook Apartments saying she planned to visit a friend. Her phone's GPS signal stopped, and she never returned home.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0037.jpg",
+        "document_path": "/docs/BM-0037.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.35271,
+          42.36837
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0038",
+        "full_name": "D'Wan Christian Sims",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "1994-12-11",
+        "city": "Livonia",
+        "state": "Michigan",
+        "case_summary_short": "Was reported missing from a Livonia shopping mall, but investigators said they did not believe he had been there that day. His disappearance remains unresolved.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0038.jpg",
+        "document_path": "/docs/BM-0038.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.185994,
+          33.538686
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0039",
+        "full_name": "Jhessye Jash'ua Shockley",
+        "case_status": "Presumed Deceased",
+        "classification": "Child",
+        "case_classification": "Suspected Homicide",
+        "missing_date": "2011-10-11",
+        "city": "Glendale",
+        "state": "Arizona",
+        "case_summary_short": "Was reported missing from her Glendale home. Her mother was later convicted of murder and child abuse, but her body has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0039.jpg",
+        "document_path": "/docs/BM-0039.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.162772,
+          32.71742
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0040",
+        "full_name": "Jahi Marques Turner",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Suspected Homicide",
+        "missing_date": "2002-04-25",
+        "city": "San Diego",
+        "state": "California",
+        "case_summary_short": "Was reported missing from Balboa Park, although investigators documented conflicting accounts of what happened. Foul play is suspected, and his remains have never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0040.png",
+        "document_path": "/docs/BM-0040.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949721,
+          40.652601
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0041",
+        "full_name": "Andre Terrence Bryant",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Stranger Abduction",
+        "missing_date": "1989-03-29",
+        "city": "Brooklyn",
+        "state": "New York",
+        "case_summary_short": "Disappeared after his mother was abducted and killed when he was one month old. Authorities have considered whether he was taken for an illegal adoption.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0041.jpg",
+        "document_path": "/docs/BM-0041.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.43428,
+          37.538509
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0042",
+        "full_name": "Keeshae Eunique Jacobs",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2016-09-26",
+        "city": "Richmond",
+        "state": "Virginia",
+        "case_summary_short": "Vanished after saying she planned to stay with a friend. Police later found her blood and phone SIM card inside a residence, and foul play is suspected.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0042.jpg",
+        "document_path": "/docs/BM-0042.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.178543,
+          32.266651
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0043",
+        "full_name": "Cynthia Martyna Bah-Traore",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2021-02-03",
+        "city": "Grandview",
+        "state": "Texas",
+        "case_summary_short": "Was last captured on surveillance at a gas station. Her vehicle was later found abandoned along Interstate 35, but she remains missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0043.jpg",
+        "document_path": "/docs/BM-0043.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04664,
+          42.331551
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0044",
+        "full_name": "Kaylah Neveah Hunter",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2014-05-24",
+        "city": "Detroit",
+        "state": "Michigan",
+        "case_summary_short": "Was last seen in Detroit with her mother and infant half-brother, Kristian. Their mother was later found deceased, but both children remain missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0044.jpg",
+        "document_path": "/docs/BM-0044.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.227027,
+          47.38269
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0045",
+        "full_name": "Asia Wilbon",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2020-02-13",
+        "city": "Kent",
+        "state": "Washington",
+        "case_summary_short": "Was reported missing from Kent, Washington. No additional circumstances surrounding her disappearance have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0045.jpg",
+        "document_path": "/docs/BM-0045.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04664,
+          42.331551
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0046",
+        "full_name": "Jasmine Sherea Moody",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2014-12-04",
+        "city": "Detroit",
+        "state": "Michigan",
+        "case_summary_short": "Disappeared after an argument while visiting a friend in Detroit. She left important belongings behind and has not been heard from since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0046.jpg",
+        "document_path": "/docs/BM-0046.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.610759,
+          39.290882
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0047",
+        "full_name": "Autumn Fagan",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2022-01-02",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "case_summary_short": "Was last seen in the 1600 block of North Hilton Street in Baltimore. No additional circumstances surrounding her disappearance have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0047.jpg",
+        "document_path": "/docs/BM-0047.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04664,
+          42.331551
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0048",
+        "full_name": "Kristian Dejuan Justice",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2014-05-24",
+        "city": "Detroit",
+        "state": "Michigan",
+        "case_summary_short": "Was last seen in Detroit with his mother and half-sister, Kaylah, when he was eight months old. Their mother was later found deceased, but both children remain missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0048.jpg",
+        "document_path": "/docs/BM-0048.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.035231,
+          34.000754
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0049",
+        "full_name": "Amir D'Rod Jennings",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2011-11-22",
+        "city": "Columbia",
+        "state": "South Carolina",
+        "case_summary_short": "Was last seen with his mother during the Thanksgiving period in 2011. No confirmed sighting of him has been reported since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0049.jpg",
+        "document_path": "/docs/BM-0049.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.309078,
+          32.377711
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0050",
+        "full_name": "LaQuanta Nachelle Riley",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2003-12-07",
+        "city": "Montgomery",
+        "state": "Alabama",
+        "case_summary_short": "Was last seen leaving her Montgomery residence in a dark green four-door vehicle with unidentified people. She has not been seen since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0050.jpg",
+        "document_path": "/docs/BM-0050.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.611685,
+          30.385755
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0051",
+        "full_name": "Desmond Moore",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2014-08-30",
+        "city": "Gautier",
+        "state": "Mississippi",
+        "case_summary_short": "Left his mother's Gautier home to meet friends at a nearby restaurant and never returned. He has not been heard from since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0051.jpg",
+        "document_path": "/docs/BM-0051.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.78483,
+          36.739442
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0052",
+        "full_name": "Micaela Faith Navarro",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2023-08-26",
+        "city": "Fresno",
+        "state": "California",
+        "case_summary_short": "Was reported missing from the 4600 block of East Florence Avenue in Fresno. No additional circumstances surrounding her disappearance have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0052.jpg",
+        "document_path": "/docs/BM-0052.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.309078,
+          32.377711
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0053",
+        "full_name": "Kimberly Nicole Arrington",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1998-10-30",
+        "city": "Montgomery",
+        "state": "Alabama",
+        "case_summary_short": "Left to walk to a nearby Montgomery store and never returned. She remains missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0053.jpg",
+        "document_path": "/docs/BM-0053.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.367697,
+          29.758938
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0054",
+        "full_name": "Laniya Beck",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2024-03-20",
+        "city": "Houston",
+        "state": "Texas",
+        "case_summary_short": "Was last seen in Houston on March 20, 2024. No additional circumstances surrounding her disappearance have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0054.jpg",
+        "document_path": "/docs/BM-0054.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624421,
+          41.875562
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0055",
+        "full_name": "Malcolm Abbington",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2013-06-29",
+        "city": "Chicago",
+        "state": "Illinois",
+        "case_summary_short": "Was last seen near the 4200 block of West 21st Street in Chicago. No additional circumstances surrounding his disappearance have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0055.jpg",
+        "document_path": "/docs/BM-0055.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624421,
+          41.875562
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0056",
+        "full_name": "Joanna Wright",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Stranger Abduction",
+        "missing_date": "2016-12-18",
+        "city": "Chicago",
+        "state": "Illinois",
+        "case_summary_short": "Was reportedly taken against her will by several unknown men and may have been placed in a blue Mazda. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0056.jpg",
+        "document_path": "/docs/BM-0056.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.000707,
+          39.96226
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0057",
+        "full_name": "Shaniece Mona Briggs",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Suspected Abduction",
+        "missing_date": "2013-06-19",
+        "city": "Columbus",
+        "state": "Ohio",
+        "case_summary_short": "Left four young children and her personal belongings behind. A witness reported seeing her being pushed into a black vehicle.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0057.png",
+        "document_path": "/docs/BM-0057.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.610759,
+          39.290882
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0058",
+        "full_name": "Garfield James Meekins",
+        "case_status": "Missing",
+        "classification": "Elder",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1999-09-06",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "case_summary_short": "Left his Baltimore residence to walk to a local store and never returned. He has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0058.jpg",
+        "document_path": "/docs/BM-0058.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.610759,
+          39.290882
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0059",
+        "full_name": "Garnell Munroe Moore",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2005-07-01",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "case_summary_short": "Was last known to be with a female relative. Few additional circumstances surrounding his disappearance have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0059.jpg",
+        "document_path": "/docs/BM-0059.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624421,
+          41.875562
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0060",
+        "full_name": "Devion Colford",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2014-01-03",
+        "city": "Chicago",
+        "state": "Illinois",
+        "case_summary_short": "Was last seen in the 4200 block of South Langley Avenue in Chicago. No additional circumstances surrounding his disappearance have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0060.jpg",
+        "document_path": "/docs/BM-0060.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.650278,
+          34.503333
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0061",
+        "full_name": "Alexis D. Ware",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2022-01-30",
+        "city": "Anderson",
+        "state": "South Carolina",
+        "case_summary_short": "Was last seen near an Anderson County 7-Eleven after meeting the father of one of her children. Her vehicle was later captured on highway cameras, but she remains missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0061.jpg",
+        "document_path": "/docs/BM-0061.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.000707,
+          39.96226
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0062",
+        "full_name": "Devin \"Sacoya\" Cooper",
+        "case_status": "Missing",
+        "classification": "LGBTQ+",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2021-09-01",
+        "city": "Columbus",
+        "state": "Ohio",
+        "case_summary_short": "Left home to visit a corner store and never returned. Her vehicle was recovered, and the FBI has offered a reward for information about her disappearance.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0062.jpg",
+        "document_path": "/docs/BM-0062.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.794294,
+          26.142198
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0063",
+        "full_name": "Terrance Deon Williams",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2004-01-12",
+        "city": "Naples",
+        "state": "Florida",
+        "case_summary_short": "Was last seen after an encounter with a Collier County sheriff's deputy in North Naples. His disappearance remains under investigation.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0063.jpg",
+        "document_path": "/docs/BM-0063.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.610759,
+          39.290882
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0064",
+        "full_name": "Stephanie Marie Gant-Brady",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1984-04-08",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "case_summary_short": "Disappeared without her passport, leaving behind mobility aids she used because of multiple sclerosis and other personal belongings. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0064.jpg",
+        "document_path": "/docs/BM-0064.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.236704,
+          38.888081
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0065",
+        "full_name": "Rico Omarr Harris",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2014-10-10",
+        "city": "Rumsey",
+        "state": "California",
+        "case_summary_short": "Last contacted family while driving north through the Sacramento area. His vehicle was later found at a regional park near Rumsey, but he remains missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0065.jpg",
+        "document_path": "/docs/BM-0065.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.74049,
+          32.500703
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0066",
+        "full_name": "Anthony Tyrone Lee",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2011-06-25",
+        "city": "Longview",
+        "state": "Texas",
+        "case_summary_short": "Disappeared from his Longview residence, which appeared to have been left suddenly. His personal belongings and money were left behind.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0066.jpg",
+        "document_path": "/docs/BM-0066.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.244052,
+          36.099813
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0067",
+        "full_name": "Sherri Lee Truesdale",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "1970-06-13",
+        "city": "Winston-Salem",
+        "state": "North Carolina",
+        "case_summary_short": "Took a bus into downtown Winston-Salem and never returned home. A lengthy search found no trace of her.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0067.jpg",
+        "document_path": "/docs/BM-0067.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.791975,
+          36.072635
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0068",
+        "full_name": "Sterling Thomas Porter",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "1997-05-25",
+        "city": "Greensboro",
+        "state": "North Carolina",
+        "case_summary_short": "Was last seen entering his Greensboro residence. Investigators suspect foul play, but he has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0068.jpg",
+        "document_path": "/docs/BM-0068.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.948728,
+          34.235285
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0069",
+        "full_name": "Ebonee S. Spears",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2016-01-15",
+        "city": "Wilmington",
+        "state": "North Carolina",
+        "case_summary_short": "Disappeared without her medication, identification, purse, or vehicles and left her daughter behind. She has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0069.jpg",
+        "document_path": "/docs/BM-0069.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.43428,
+          37.538509
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0070",
+        "full_name": "Randall William Collins",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2014-04-05",
+        "city": "Richmond",
+        "state": "Virginia",
+        "case_summary_short": "Was last seen after leaving a venue in Richmond. He had a seizure disorder requiring medication and has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0070.jpg",
+        "document_path": "/docs/BM-0070.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.843083,
+          35.227209
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0071",
+        "full_name": "Jamekia Shaneice Sabb",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2013-11-22",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "case_summary_short": "Was last seen leaving her Charlotte residence in the 6200 block of Donna Drive. No additional circumstances surrounding her disappearance have been made public.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0071.jpg",
+        "document_path": "/docs/BM-0071.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.43428,
+          37.538509
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0072",
+        "full_name": "Jamal Basil Abdul'Faruq",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "1990-04-16",
+        "city": "Richmond",
+        "state": "Virginia",
+        "case_summary_short": "Disappeared while playing with his brother. His brother's body was later found, but he remains missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0072.jpg",
+        "document_path": "/docs/BM-0072.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.476678,
+          38.029306
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0073",
+        "full_name": "Dashad \"Sage\" Smith",
+        "case_status": "Presumed Deceased",
+        "classification": "LGBTQ+",
+        "case_classification": "Suspected Homicide",
+        "missing_date": "2012-11-20",
+        "city": "Charlottesville",
+        "state": "Virginia",
+        "case_summary_short": "Vanished after planning to meet an acquaintance. Police later treated her disappearance as a homicide investigation, but her body has never been found.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0073.jpg",
+        "document_path": "/docs/BM-0073.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.583776,
+          33.37032
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0074",
+        "full_name": "Daniel Robinson",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2021-06-23",
+        "city": "Buckeye",
+        "state": "Arizona",
+        "case_summary_short": "Left a remote work site in Buckeye and vanished. His damaged vehicle was later found in a ravine, but extensive searches have not located him.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0074.jpg",
+        "document_path": "/docs/BM-0074.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.74049,
+          32.500703
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0075",
+        "full_name": "Raymond Paul Jones",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2003-08-04",
+        "city": "Longview",
+        "state": "Texas",
+        "case_summary_short": "Was last seen leaving a relative's Longview residence with two unidentified men in a small white four-door vehicle. He has not been heard from since.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0075.jpg",
+        "document_path": "/docs/BM-0075.md"
+      }
+    }
+  ]
+}

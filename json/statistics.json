@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "generated_on": "2026-08-04",
+  "source": "/json/cases.json",
+  "total_cases": 75,
+  "geocoded_cases": 75,
+  "cases_without_coordinates": 0,
+  "missing_date_range": {
+    "earliest_year": 1970,
+    "latest_year": 2024
+  },
+  "by_case_status": {
+    "Missing": 71,
+    "Presumed Deceased": 4
+  },
+  "by_classification": {
+    "Child": 34,
+    "Adult Woman": 22,
+    "Adult Man": 14,
+    "LGBTQ+": 3,
+    "Elder": 2
+  },
+  "by_case_classification": {
+    "Endangered Missing": 37,
+    "Missing Under Mysterious Circumstances": 25,
+    "Suspected Homicide": 7,
+    "Stranger Abduction": 5,
+    "Suspected Abduction": 1
+  },
+  "by_state": {
+    "Illinois": 6,
+    "New York": 6,
+    "North Carolina": 6,
+    "California": 5,
+    "Maryland": 5,
+    "Texas": 5,
+    "Alabama": 4,
+    "Michigan": 4,
+    "South Carolina": 4,
+    "Virginia": 4,
+    "Florida": 3,
+    "Washington": 3,
+    "Washington D.C.": 3,
+    "Arizona": 2,
+    "Georgia": 2,
+    "Louisiana": 2,
+    "Mississippi": 2,
+    "Ohio": 2,
+    "Colorado": 1,
+    "Indiana": 1,
+    "Kansas": 1,
+    "Missouri": 1,
+    "New Hampshire": 1,
+    "Tennessee": 1,
+    "Wisconsin": 1
+  },
+  "by_media_prominence": {
+    "obscure_or_limited_coverage": 53,
+    "moderately_known": 13,
+    "well_known": 9
+  },
+  "by_missing_decade": {
+    "2010s": 28,
+    "2000s": 19,
+    "2020s": 12,
+    "1990s": 11,
+    "1980s": 4,
+    "1970s": 1
+  }
+}

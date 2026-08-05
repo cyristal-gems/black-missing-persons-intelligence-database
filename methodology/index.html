@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Methodology, sourcing, and quality standards for the Black Missing Persons Intelligence Database.">
+<title>Methodology | Black Missing Persons Intelligence Database</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/styles.css?v=20260804ab">
+<script src="/assets/site.js?v=20260804ab" defer>
+</script>
+</head>
+<body data-page="content">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<div class="shell nav-wrap">
+<a class="brand" href="/">
+<span class="brand-title">Black Missing Persons Intelligence Database</span>
+</a>
+<nav class="primary-nav" aria-label="Primary navigation">
+<a href="/">Dashboard</a>
+<a aria-current="page" href="/methodology/">Methodology</a>
+<a href="/reference/">Reference</a>
+</nav>
+<a class="button button-small" href="/cases/">Browse cases</a>
+</div>
+</header>
+<main id="main-content">
+<section class="page-hero compact">
+<div class="shell">
+<h1>Clear standards.<br>
+<span>Accountable records.</span>
+</h1>
+<p>How each case is sourced, classified, written, verified, and transformed into public data.</p>
+</div>
+</section>
+<section class="prose-section">
+<div class="shell prose-layout">
+<aside>
+<p class="eyebrow">On this page</p>
+<nav class="side-nav">
+<a href="#model">Source file</a>
+<a href="#downloads">Download data</a>
+<a href="#sources">Source standards</a>
+<a href="#writing">Narrative standards</a>
+<a href="#location">Location data</a>
+<a href="#quality">Quality review</a>
+<a href="#limitations">Limitations</a>
+</nav>
+</aside>
+<article class="prose">
+<h2 id="model">One source file</h2>
+<p>
+<code>data/cases.csv</code> is the main source file. Corrections begin there so every case page, chart, map, and downloadable file can be rebuilt from the same reviewed information.</p>
+<div class="flow-card">
+<code>cases.csv</code>
+<span>→</span>
+<div>
+<code>case pages</code>
+<code>JSON</code>
+<code>GeoJSON</code>
+<code>statistics</code>
+</div>
+</div>
+<section class="download-section" id="downloads" aria-labelledby="downloads-title">
+<h2 id="downloads-title">Download data</h2>
+<p>Download the main CSV or one of the generated files for research, mapping, analysis, or future integrations.</p>
+<div class="download-grid">
+<a class="download-card" href="/data/cases.csv" download><strong>Cases CSV</strong><span>Main source file · CSV</span><small>Download ↓</small></a>
+<a class="download-card" href="/json/cases.json" download><strong>Cases JSON</strong><span>Complete case records · JSON</span><small>Download ↓</small></a>
+<a class="download-card" href="/json/geojson.json" download><strong>Map data</strong><span>Last-seen locations · GeoJSON</span><small>Download ↓</small></a>
+<a class="download-card" href="/json/statistics.json" download><strong>Statistics</strong><span>Calculated database totals · JSON</span><small>Download ↓</small></a>
+<a class="download-card" href="/json/states.json" download><strong>State summaries</strong><span>State-level aggregates · JSON</span><small>Download ↓</small></a>
+<a class="download-card" href="/json/dashboard-config.json" download><strong>Dashboard configuration</strong><span>Filters and display settings · JSON</span><small>Download ↓</small></a>
+</div>
+</section>
+<h2 id="sources">Source standards</h2>
+<p>Records prioritize dedicated missing-person profiles, government and law-enforcement bulletins, official missing-child posters, public alerts, and established case-information organizations. Every profile connects readers to an active primary and secondary source.</p>
+<h2 id="writing">Narrative standards</h2>
+<p>Case writing is neutral and factual. Confirmed events, official statements, investigative theories, and unresolved questions remain distinct. The database does not present a theory as fact or state that a crime occurred unless the cited record supports that classification.</p>
+<h2 id="location">Location data</h2>
+<p>Coordinates represent generalized city-level last-seen locations in WGS 84 decimal degrees. They support geographic context without implying an exact disappearance point. State boundaries come from the U.S. Census Bureau's 2025 TIGERweb States layer and are stored locally with the website.</p>
+<h2 id="quality">Quality review</h2>
+<ol>
+<li>Confirm identity, missing date, age, and last-seen locality.</li>
+<li>Verify both source links and reconcile conflicting information.</li>
+<li>Review classifications and language for unsupported conclusions.</li>
+<li>Validate timelines, images, coordinates, and generated outputs.</li>
+<li>Update the verification date only after completing the review.</li>
+</ol>
+<h2 id="limitations">Limitations</h2>
+<p>Public information can be incomplete, inconsistent, delayed, or removed. Media prominence can change. Absence from this database does not indicate that a case is less important or no longer active.</p>
+<p>
+<a class="text-link" href="/reference/methodology.md">Read the complete methodology document <span aria-hidden="true">→</span>
+</a>
+</p>
+</article>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="shell footer-bottom">
+<p>Mapping the Missing. Preserving Every Story.</p>
+<p>© <span data-current-year>
+</span> Black Missing Persons Intelligence Database</p>
+</div>
+</footer>
+</body>
+</html>

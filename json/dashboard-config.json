@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "app": {
+    "name": "Black Missing Persons Intelligence Database",
+    "description": "A searchable database of missing Black people and unresolved disappearances.",
+    "base_path": "/"
+  },
+  "data_sources": {
+    "cases": "/json/cases.json",
+    "geojson": "/json/geojson.json",
+    "statistics": "/json/statistics.json",
+    "states": "/json/states.json",
+    "case_documents": "/docs/"
+  },
+  "default_view": "map",
+  "map": {
+    "center": {
+      "latitude": 37.223747,
+      "longitude": -88.174703
+    },
+    "zoom": 4,
+    "cluster_markers": true,
+    "geojson_source": "/json/geojson.json"
+  },
+  "filters": [
+    {
+      "field": "case_status",
+      "label": "Case Status",
+      "type": "multi_select",
+      "options": [
+        "Missing",
+        "Presumed Deceased"
+      ]
+    },
+    {
+      "field": "classification",
+      "label": "Classification",
+      "type": "multi_select",
+      "options": [
+        "Adult Man",
+        "Adult Woman",
+        "Child",
+        "Elder",
+        "LGBTQ+"
+      ]
+    },
+    {
+      "field": "case_classification",
+      "label": "Case Classification",
+      "type": "multi_select",
+      "options": [
+        "Endangered Missing",
+        "Missing Under Mysterious Circumstances",
+        "Stranger Abduction",
+        "Suspected Abduction",
+        "Suspected Homicide"
+      ]
+    },
+    {
+      "field": "last_seen.state",
+      "label": "State",
+      "type": "multi_select",
+      "options_source": "/json/states.json"
+    },
+    {
+      "field": "missing_date",
+      "label": "Missing Date",
+      "type": "date_range"
+    }
+  ],
+  "search_fields": [
+    "case_id",
+    "full_name",
+    "last_seen.city",
+    "last_seen.state",
+    "keywords"
+  ],
+  "card_fields": [
+    "full_name",
+    "case_summary_short",
+    "missing_date",
+    "last_seen",
+    "case_status",
+    "image_url"
+  ],
+  "sort_options": [
+    {
+      "value": "missing_date_desc",
+      "label": "Newest cases",
+      "field": "missing_date",
+      "direction": "desc"
+    },
+    {
+      "value": "missing_date_asc",
+      "label": "Oldest cases",
+      "field": "missing_date",
+      "direction": "asc"
+    },
+    {
+      "value": "full_name_asc",
+      "label": "Name A–Z",
+      "field": "full_name",
+      "direction": "asc"
+    }
+  ],
+  "accessibility": {
+    "require_image_alt_text": true,
+    "announce_filter_result_count": true,
+    "respect_reduced_motion": true
+  }
+}

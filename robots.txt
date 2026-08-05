@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://black-missing-person-database.vercel.app/sitemap.xml
+
