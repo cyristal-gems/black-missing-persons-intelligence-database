@@ -149,9 +149,29 @@ h1 span, .page-hero h1 span { color: var(--accent-light); }
 .bar-track { height: 10px; border-radius: 999px; background: #292533; overflow: hidden; }
 .bar-fill { height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--accent-dark), var(--accent-light)); transform-origin: left; animation: bar-grow .9s .3s ease-out both; }
 .year-panel { grid-column: 1 / -1; min-height: 300px; }
-.year-chart { min-height: 216px; display: grid; grid-template-columns: repeat(var(--year-count, 1), minmax(15px, 1fr)); align-items: end; gap: 3px; padding: 30px 20px 12px; overflow-x: auto; background: repeating-linear-gradient(to bottom, transparent 0, transparent 43px, rgba(255,255,255,.045) 44px); scrollbar-color: #55466f #1b1822; }
+.year-chart { min-height: 216px; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(15px, 1fr); align-items: end; gap: 3px; padding: 30px 20px 12px; overflow-x: auto; background: repeating-linear-gradient(to bottom, transparent 0, transparent 43px, rgba(255,255,255,.045) 44px); scrollbar-color: #55466f #1b1822; }
 .year-column { min-width: 15px; display: grid; grid-template-rows: 138px 28px; align-items: end; text-align: center; }
 .year-bar { position: relative; width: min(100%, 22px); min-height: 0; justify-self: center; align-self: end; border-radius: 3px 3px 0 0; background: linear-gradient(180deg, var(--accent-light), var(--accent-dark)); opacity: .88; transform-origin: bottom; animation: bar-rise .75s .35s ease-out both; }
+.height-level-1 { height: 8px; }
+.height-level-2 { height: 11px; }
+.height-level-3 { height: 17px; }
+.height-level-4 { height: 22px; }
+.height-level-5 { height: 28px; }
+.height-level-6 { height: 34px; }
+.height-level-7 { height: 39px; }
+.height-level-8 { height: 45px; }
+.height-level-9 { height: 50px; }
+.height-level-10 { height: 56px; }
+.height-level-11 { height: 62px; }
+.height-level-12 { height: 67px; }
+.height-level-13 { height: 73px; }
+.height-level-14 { height: 78px; }
+.height-level-15 { height: 84px; }
+.height-level-16 { height: 90px; }
+.height-level-17 { height: 95px; }
+.height-level-18 { height: 101px; }
+.height-level-19 { height: 106px; }
+.height-level-20 { height: 112px; }
 .year-column.has-cases .year-bar:hover, .year-column.has-cases .year-bar:focus { opacity: 1; outline: 2px solid rgba(202,190,255,.8); outline-offset: 2px; }
 .year-count { position: absolute; left: 50%; bottom: calc(100% + 4px); color: #c8c1d1; font-size: 8px; font-weight: 800; line-height: 1; transform: translateX(-50%); }
 .year-tooltip { position: absolute; z-index: 4; left: 50%; bottom: calc(100% + 7px); display: none; padding: 5px 7px; border: 1px solid var(--line); border-radius: 6px; background: #252130; box-shadow: var(--shadow); color: var(--ink); font-size: 10px; font-weight: 700; white-space: nowrap; transform: translateX(-50%); }
@@ -365,7 +385,7 @@ h1 span, .page-hero h1 span { color: var(--accent-light); }
   .map-help { min-height: 44px; margin-right: 165px; }
   .map-controls { top: 63px; }
   .map-attribution { right: 18px; bottom: 14px; max-width: 170px; text-align: right; }
-  .year-chart { grid-template-columns: repeat(var(--year-count, 1), 18px); gap: 4px; padding-inline: 18px; overscroll-behavior-inline: contain; }
+  .year-chart { grid-auto-columns: 18px; gap: 4px; padding-inline: 18px; overscroll-behavior-inline: contain; }
   .case-grid, .directory-grid { grid-template-columns: 1fr; }
   .filter-panel { grid-template-columns: 1fr 1fr; }
   .search-field { grid-column: 1 / -1; }

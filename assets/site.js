@@ -83,16 +83,15 @@ function renderYearChart(cases) {
   const lastYear = recordedYears[recordedYears.length - 1];
   const years = Array.from({ length: lastYear - firstYear + 1 }, (_, index) => firstYear + index);
   const maximum = Math.max(...counts.values());
-  chart.style.setProperty("--year-count", years.length);
   chart.setAttribute("aria-label", `Cases by missing year from ${firstYear} through ${lastYear}`);
   const rangeLabel = chart.closest(".year-panel")?.querySelector(".range-label");
   if (rangeLabel) rangeLabel.textContent = `${firstYear}–${lastYear}`;
   chart.innerHTML = years.map((year) => {
     const count = counts.get(year) || 0;
-    const height = count ? Math.max(8, (count / maximum) * 112) : 0;
+    const heightLevel = count ? Math.max(1, Math.round((count / maximum) * 20)) : 0;
     const caseLabel = count === 1 ? "case" : "cases";
     const showYear = year === firstYear || year === lastYear || year % 5 === 0;
-    return `<div class="year-column${count ? " has-cases" : " no-cases"}"><div class="year-bar"${count ? ' tabindex="0"' : ""} style="height:${height}px" aria-label="${year}: ${count} ${caseLabel}">${count ? `<span class="year-count" aria-hidden="true">${count}</span><span class="year-tooltip" aria-hidden="true">${year} · ${count} ${caseLabel}</span>` : ""}</div><span class="year-label" aria-hidden="true">${showYear ? year : ""}</span></div>`;
+    return `<div class="year-column${count ? " has-cases" : " no-cases"}"><div class="year-bar${count ? ` height-level-${heightLevel}` : ""}"${count ? ' tabindex="0"' : ""} aria-label="${year}: ${count} ${caseLabel}">${count ? `<span class="year-count" aria-hidden="true">${count}</span><span class="year-tooltip" aria-hidden="true">${year} · ${count} ${caseLabel}</span>` : ""}</div><span class="year-label" aria-hidden="true">${showYear ? year : ""}</span></div>`;
   }).join("");
 
   requestAnimationFrame(() => {

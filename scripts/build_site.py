@@ -14,7 +14,7 @@ PROJECT = Path(__file__).resolve().parents[1]
 CASES_PATH = PROJECT / "json" / "cases.json"
 CASE_ROUTES = PROJECT / "cases"
 SITE_URL = "https://black-missing-person-database.vercel.app"
-ASSET_VERSION = "20260805a"
+ASSET_VERSION = "20260805b"
 
 RELATED_CASES = {
     "BM-0003": [("BM-0004", "Diamond Yvette Bradley")],
