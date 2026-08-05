@@ -73,6 +73,12 @@ def source_entries(row):
     return entries
 
 
+def public_investigation_summary(row):
+    status = clean(row["investigative_status"])
+    classification = clean(row["case_classification"])
+    return f"The case is currently recorded as {status} and is classified as {classification}."
+
+
 def normalized_case(row):
     agencies = split_values(row["lead_agencies"])
     phones = split_values(row["lead_agency_phone"])
@@ -102,7 +108,7 @@ def normalized_case(row):
         "case_summary_short": clean(row["case_summary_short"]),
         "overview": clean(row["overview"]),
         "circumstances": clean(row["circumstances"]),
-        "investigation_summary": clean(row["investigation_summary"]),
+        "investigation_summary": public_investigation_summary(row),
         "timeline": [
             {"label": clean(event["label"]), "description": clean(event["description"])}
             for event in timeline

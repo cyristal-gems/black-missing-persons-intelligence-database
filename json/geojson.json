@@ -3,7 +3,7 @@
   "name": "black_missing_person_cases",
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_on": "2026-08-04",
+    "generated_on": "2026-08-05",
     "source": "/json/cases.json",
     "feature_count": 75,
     "coordinate_order": "longitude, latitude"

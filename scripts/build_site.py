@@ -14,7 +14,7 @@ PROJECT = Path(__file__).resolve().parents[1]
 CASES_PATH = PROJECT / "json" / "cases.json"
 CASE_ROUTES = PROJECT / "cases"
 SITE_URL = "https://black-missing-person-database.vercel.app"
-ASSET_VERSION = "20260804ab"
+ASSET_VERSION = "20260805a"
 
 RELATED_CASES = {
     "BM-0003": [("BM-0004", "Diamond Yvette Bradley")],
@@ -25,6 +25,23 @@ RELATED_CASES = {
     "BM-0048": [("BM-0044", "Kaylah Neveah Hunter")],
 }
 
+# Phone counts are explicit for every case with multiple agencies. This prevents
+# a rebuild from guessing how semicolon-delimited CSV values should be grouped.
+MULTI_AGENCY_PHONE_COUNTS = {
+    "BM-0003": [1, 1],
+    "BM-0004": [1, 1],
+    "BM-0005": [1, 1],
+    "BM-0006": [1, 1],
+    "BM-0007": [1, 1],
+    "BM-0012": [1, 1],
+    "BM-0013": [2, 1],
+    "BM-0021": [1, 1],
+    "BM-0061": [1, 0, 0],
+    "BM-0062": [1, 0],
+    "BM-0063": [1, 0, 0],
+    "BM-0066": [1, 0],
+}
+
 
 def esc(value):
     return html.escape(str(value or ""), quote=True)
@@ -33,6 +50,22 @@ def esc(value):
 def display_date(value):
     parsed = datetime.strptime(value, "%Y-%m-%d")
     return f"{parsed.strftime('%B')} {parsed.day}, {parsed.year}"
+
+
+def group_agency_phones(case_id, agencies, phones):
+    if len(agencies) == 1:
+        return [phones]
+    phone_counts = MULTI_AGENCY_PHONE_COUNTS.get(case_id)
+    if phone_counts is None:
+        raise ValueError(f"Add an explicit agency/phone grouping for {case_id}")
+    if len(phone_counts) != len(agencies) or sum(phone_counts) != len(phones):
+        raise ValueError(f"Agency/phone grouping no longer matches source data for {case_id}")
+    grouped = []
+    phone_index = 0
+    for phone_count in phone_counts:
+        grouped.append(phones[phone_index:phone_index + phone_count])
+        phone_index += phone_count
+    return grouped
 
 
 def source_name(url):
@@ -70,7 +103,7 @@ def render_case(case):
     location = ", ".join(filter(None, [case["last_seen"]["city"], case["last_seen"]["state"], case["last_seen"]["country"]]))
     image_name = Path(urlparse(case["image_url"]).path).name
     status_class = " presumed" if case["case_status"] == "Presumed Deceased" else ""
-    agencies = "; ".join(case["investigation"]["agencies"])
+    agencies = case["investigation"]["agencies"]
     phones = case["investigation"]["phones"]
     timeline = "".join(
         f'<li><strong>{esc(event["label"])}</strong><span>{esc(event["description"])}</span></li>'
@@ -80,9 +113,16 @@ def render_case(case):
         f'<li><a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source_name(source["url"]))} <span aria-hidden="true">↗</span></a></li>'
         for source in case["sources"]
     )
-    phone_items = "".join(
-        f'<a href="tel:{re.sub(r"[^0-9+]", "", phone)}">{esc(phone)}</a>'
-        for phone in phones
+    agency_contacts = group_agency_phones(case_id, agencies, phones)
+    contact_items = "".join(
+        '<li><strong>{agency}</strong>{phones}</li>'.format(
+            agency=esc(agency),
+            phones="".join(
+                f'<a href="tel:{re.sub(r"[^0-9+]", "", phone)}">{esc(phone)}</a>'
+                for phone in agency_contacts[index]
+            ) or '<span>Phone number not listed</span>',
+        )
+        for index, agency in enumerate(agencies)
     )
     related = ""
     if case_id in RELATED_CASES:
@@ -112,7 +152,7 @@ def render_case(case):
     <section><h2>Notes</h2><p>{esc(case["notes"])}</p></section>{related}
   </article><aside class="case-sidebar">
     <section class="facts-card"><h2>Quick Facts</h2><dl class="facts-list"><div><dt>Case ID</dt><dd>{esc(case_id)}</dd></div><div><dt>Missing date</dt><dd>{esc(display_date(case["missing_date"]))}</dd></div><div><dt>Age at missing</dt><dd>{esc(case["age_at_missing"])}</dd></div><div><dt>Last seen</dt><dd>{esc(location)}</dd></div><div><dt>Classification</dt><dd>{esc(case["case_classification"])}</dd></div><div><dt>Investigation</dt><dd>{esc(case["investigation"]["status"])}</dd></div></dl></section>
-    <section class="tip-card"><h2>Have information?</h2><p>Contact the listed investigating agency directly. Do not submit tips to this website.</p><p><strong>{esc(agencies)}</strong></p>{phone_items}</section>
+    <section class="tip-card"><h2>Have information?</h2><p>Contact the listed investigating agency directly. Do not submit tips to this website.</p><ul class="agency-contact-list">{contact_items}</ul></section>
     <section class="sources-card"><h2>Sources</h2><ul class="source-list">{source_items}</ul><p class="verified-date">Record last verified {esc(display_date(case["last_verified_date"]))}</p></section>
   </aside></div></section>
 </main>{footer()}</body></html>'''
