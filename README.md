@@ -33,7 +33,7 @@ The Black Missing Persons Intelligence Database brings source-backed information
 
 ## 🕵🏽‍♀️ View Database Here
 
-[Black Missin Person Intelligence Database](https://black-missing-person-database.vercel.app)
+[Black Missing Person Intelligence Database](https://black-missing-person-database.vercel.app)
 
 ## 📞 Connect With Me
 
