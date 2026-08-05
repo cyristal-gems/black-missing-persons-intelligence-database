@@ -1,7 +1,5 @@
 # Black Missing Persons Intelligence Database
 
-## Summary
-
 The Black Missing Persons Intelligence Database brings source-backed information about missing Black people together in one public, searchable collection. Its main CSV file is used to generate case profiles, maps, statistics, and JSON files for research, public awareness, and future integrations.
 
 ## Key Features
