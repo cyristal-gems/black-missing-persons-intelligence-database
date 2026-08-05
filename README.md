@@ -1,6 +1,6 @@
-# Black Missing Person Intelligence Database
+# Black Missing Persons Intelligence Database
 
-The Black Missing Person Intelligence Database brings source-backed information about missing Black people together in one public, searchable collection. Its main CSV file is used to generate case profiles, maps, statistics, and JSON files for research, public awareness, and future integrations.
+The Black Missing Persons Intelligence Database brings source-backed information about missing Black people together in one public, searchable collection. Its main CSV file is used to generate case profiles, maps, statistics, and JSON files for research, public awareness, and future integrations.
 
 ## Key Features
 
@@ -33,7 +33,7 @@ The Black Missing Person Intelligence Database brings source-backed information 
 
 ## View Database Here
 
-[Black Missing Person Intelligence Database](https://black-missing-person-database.vercel.app)
+[Black Missing Persons Intelligence Database](https://black-missing-persons-database.vercel.app)
 
 ## Connect With Me
 
