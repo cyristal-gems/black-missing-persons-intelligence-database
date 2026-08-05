@@ -16,7 +16,6 @@ The Black Missing Persons Intelligence Database brings source-backed information
 - Splunk-ready data for search, monitoring, visualization, and investigative analysis.
 - A responsive static website with an interactive map, charts, search, filters, and 75 permanent case routes.
 - GitHub and Vercel configuration for automatic production deployments.
-- A complete local rebuild using `python3 scripts/generate_assets.py` and local preview using `python3 -m http.server 8000`.
 
 ## Tech Stack
 
