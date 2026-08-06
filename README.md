@@ -2,7 +2,7 @@
 
 The Black Missing Persons Intelligence Database brings source-backed information about missing Black people together in one public, searchable collection. Its main CSV file is used to generate case profiles, maps, statistics, and JSON files for research, public awareness, and future integrations.
 
-## Key Features
+## ✨ Key Features
 
 - A canonical `data/cases.csv` dataset that serves as the single source of truth.
 - Individual Markdown and website profiles with consistent overviews, facts, circumstances, investigations, timelines, descriptions, notes, and active sources.
@@ -17,7 +17,7 @@ The Black Missing Persons Intelligence Database brings source-backed information
 - A responsive static website with an interactive map, charts, search, filters, and 75 permanent case routes.
 - A complete local rebuild using `python3 scripts/generate_assets.py` 
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 - **CSV:** Stores the canonical case dataset that powers every generated document and integration file.
 - **Python 3:** Validates the source data and automatically generates the Markdown documentation and JSON datasets.
@@ -31,11 +31,11 @@ The Black Missing Persons Intelligence Database brings source-backed information
 - **GitHub:** Stores the version-controlled canonical data, generated assets, website source, and project history.
 - **Vercel:** Hosts the static production website and automatically redeploys changes pushed to the connected GitHub repository.
 
-## View Database Here
+## 🕵🏽‍♀️ View Database Here
 
-[Black Missing Persons Intelligence Database](https://black-missing-persons-database.vercel.app)
+[Black Missing Persons Intelligence Database](https://black-missing-persons-intelligence-database.vercel.app)
 
-## Connect With Me
+## 📞 Connect With Me
 
 - **LinkedIn:** [linkedin.com/in/cyristalj](https://www.linkedin.com/in/cyristalj)
 - **GitHub:** [github.com/cyristal-gems](https://github.com/cyristal-gems)
