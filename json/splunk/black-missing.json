@@ -1,85 +1,72 @@
 {
   "dataSources": {
-    "ds_6SXPvkkT": {
+    "ds_PjuDCKN6": {
       "type": "ds.search",
       "options": {
-        "query": "index=black_missing_database\n| rename age_at_missing AS \"Age\"\n| rename missing_date AS \"Missing Since\"\n| rename last_seen_city AS \"Last Seen City\"\n| rename last_seen_state AS \"Last Seen State\"\n| rename case_status AS \"Status\"\n| rename case_classification AS \"Classification\"\n| rename case_summary_short AS \"Summary\"\n| table full_name latitude longitude Age \"Missing Since\" \"Last Seen City\" \"Last Seen State\" Status Classification Summary image_url"
+        "query": "index=\"black_missing_database\"\n| eval latitude=tonumber(latitude), longitude=tonumber(longitude)\n| where isnotnull(latitude) AND isnotnull(longitude)\n| sort 0 - _time\n| dedup case_id\n| table case_id full_name case_summary_short last_seen_city last_seen_state latitude longitude",
+        "queryParameters": {
+          "earliest": "0",
+          "sampleRatio": 1,
+          "latest": ""
+        }
+      },
+      "name": "Table search"
+    },
+    "ds_RPf05M5b": {
+      "type": "ds.search",
+      "options": {
+        "query": "index=\"black_missing_database\"\n| stats dc(case_id) AS total_cases"
       },
       "name": "Search_1"
     },
-    "ds_44bkBNmT": {
+    "ds_9eXeUKWO": {
       "type": "ds.search",
       "options": {
-        "query": "index=black_missing_database\n| stats count"
+        "query": "index=\"black_missing_database\"\n| sort 0 - _time\n| dedup case_id\n| stats count AS Cases BY case_classification\n| rename case_classification AS Classification\n| sort - Cases"
       },
       "name": "Search_2"
-    },
-    "ds_akqco0cC": {
-      "type": "ds.search",
-      "options": {
-        "query": "index=black_missing_database\n| stats count by case_classification\n| sort -count"
-      },
-      "name": "Search_3"
-    },
-    "ds_6dc9oSO3": {
-      "type": "ds.search",
-      "options": {
-        "query": "index=black_missing_database\n| eval year=strftime(strptime(missing_date,\"%m/%d/%y\"),\"%Y\")\n| stats count by year\n| sort year"
-      },
-      "name": "Search_4"
     }
   },
   "visualizations": {
-    "viz_nYU12hki": {
+    "viz_vIhacTSb": {
       "type": "splunk.map",
       "options": {
+        "center": [
+          31.775449617688025,
+          -94.54855275845199
+        ],
+        "zoom": 4.07457282016631,
         "layers": [
           {
             "type": "marker",
-            "tooltipHeaderField": "> primary | seriesByName('full_name')",
             "additionalTooltipFields": [
-              "Age",
-              "Missing Since",
-              "Last Seen City",
-              "Last Seen State",
-              "Summary",
-              "Classification",
-              "Status"
-            ]
+              "case_summary_short",
+              "last_seen_city",
+              "last_seen_state"
+            ],
+            "tooltipHeaderField": "> primary | seriesByName('full_name')"
           }
-        ],
-        "showCoordinates": false,
-        "center": [
-          36.41902866519794,
-          -87.8698774428633
-        ],
-        "zoom": 2.866555152731464
+        ]
       },
       "dataSources": {
-        "primary": "ds_6SXPvkkT"
+        "primary": "ds_PjuDCKN6"
       },
-      "title": "Verified Missing Persons Map"
+      "title": "Last-Seen Locations",
+      "description": "Geographic distribution of the last-known locations for 110 documented missing-person cases."
     },
-    "viz_E4hQnYdN": {
+    "viz_GAsj5zvv": {
       "type": "splunk.singlevalue",
       "dataSources": {
-        "primary": "ds_44bkBNmT"
+        "primary": "ds_RPf05M5b"
       },
-      "title": "Total Cases in Databases"
+      "title": "Total Cases"
     },
-    "viz_GGxd1uLQ": {
+    "viz_XDL7yx7S": {
       "type": "splunk.bar",
+      "title": "Case by Classification",
       "dataSources": {
-        "primary": "ds_akqco0cC"
-      },
-      "title": "Cases by Classification"
-    },
-    "viz_3PYrvURP": {
-      "type": "splunk.column",
-      "dataSources": {
-        "primary": "ds_6dc9oSO3"
-      },
-      "title": "Cases by Year"
+        "primary": "ds_9eXeUKWO"
+      }
     }
   },
   "applicationProperties": {
@@ -114,43 +101,33 @@
         "type": "grid",
         "structure": [
           {
-            "item": "viz_nYU12hki",
+            "item": "viz_vIhacTSb",
             "type": "block",
             "position": {
               "x": 0,
               "y": 0,
               "w": 1440,
-              "h": 718
+              "h": 400
             }
           },
           {
-            "item": "viz_E4hQnYdN",
-            "type": "block",
-            "position": {
-              "x": 0,
-              "y": 718,
-              "w": 720,
-              "h": 290
-            }
-          },
-          {
-            "item": "viz_GGxd1uLQ",
+            "item": "viz_XDL7yx7S",
             "type": "block",
             "position": {
               "x": 720,
-              "y": 718,
+              "y": 400,
               "w": 720,
-              "h": 290
+              "h": 400
             }
           },
           {
-            "item": "viz_3PYrvURP",
+            "item": "viz_GAsj5zvv",
             "type": "block",
             "position": {
               "x": 0,
-              "y": 1008,
-              "w": 1440,
-              "h": 468
+              "y": 400,
+              "w": 720,
+              "h": 400
             }
           }
         ],
@@ -161,8 +138,8 @@
       }
     }
   },
-  "title": "Black Missing Persons Intelligence Database",
-  "description": "Geospatial intelligence dashboard visualizing verified missing Black persons cases across the United States from 1970–2024.",
+  "title": "Black Missing Persons Intelligence Dashboard",
+  "description": "Geospatial and statistical analysis of 110 source-backed missing-person cases documented from 1970 to 2026.",
   "defaults": {
     "dataSources": {
       "ds.search": {

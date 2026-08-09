@@ -10,7 +10,7 @@ The Black Missing Persons Intelligence Database is a public, source-backed colle
 
 ```text
 data/cases.csv
-├── docs/BM-0001.md through docs/BM-0075.md
+├── docs/BM-0001.md through docs/BM-0110.md
 ├── json/cases.json
 ├── json/geojson.json
 ├── json/dashboard-config.json
@@ -41,13 +41,11 @@ All case writing uses a neutral, factual style. Confirmed events, official state
 
 The CSV contains five reviewed narrative fields:
 
-- `overview` provides a concise but meaningful case introduction.
-- `circumstances` records the known events surrounding the disappearance.
+- `case_summary` provides a six- to eight-sentence canonical account of the known facts and circumstances.
+- `case_summary_short` provides a compact three- or four-sentence version for case cards, map-marker hovers, tables, and dashboards.
 - `investigation_summary` describes supported investigative activity and status.
-- `timeline` stores ordered dated or clearly labeled developments as structured JSON.
+- `timeline` stores ordered, substantive developments as structured JSON. Every event contains exactly `label` and `description`; dated events use a readable date as the label. Routine verification and unchanged open-status checks are excluded.
 - `notes` records case-specific context that does not belong in the principal narrative.
-
-`case_summary_short` remains limited to one or two sentences so it fits cards, tables, and dashboard columns.
 
 ## Classification and Keywords
 

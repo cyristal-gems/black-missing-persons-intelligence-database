@@ -1,9 +1,27 @@
 {
   "schema_version": "1.0.0",
-  "generated_on": "2026-08-05",
+  "generated_on": "2026-08-08",
   "source": "/json/cases.json",
-  "total_states_and_districts": 25,
+  "total_states_and_districts": 43,
   "states": [
+    {
+      "state": "AL",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 32.4074,
+        "longitude": -87.0211
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0104"
+      ]
+    },
     {
       "state": "Alabama",
       "case_count": 4,
@@ -49,6 +67,28 @@
       ]
     },
     {
+      "state": "CA",
+      "case_count": 4,
+      "geocoded_case_count": 4,
+      "center": {
+        "latitude": 35.348825,
+        "longitude": -118.712475
+      },
+      "case_status_counts": {
+        "Missing": 4
+      },
+      "classification_counts": {
+        "Adult Man": 3,
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0084",
+        "BM-0087",
+        "BM-0090",
+        "BM-0097"
+      ]
+    },
+    {
       "state": "California",
       "case_count": 5,
       "geocoded_case_count": 5,
@@ -91,6 +131,24 @@
       ]
     },
     {
+      "state": "FL",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 26.0078,
+        "longitude": -80.2963
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Man": 1
+      },
+      "case_ids": [
+        "BM-0091"
+      ]
+    },
+    {
       "state": "Florida",
       "case_count": 3,
       "geocoded_case_count": 3,
@@ -112,6 +170,24 @@
       ]
     },
     {
+      "state": "GA",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 33.7123,
+        "longitude": -84.1052
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0081"
+      ]
+    },
+    {
       "state": "Georgia",
       "case_count": 2,
       "geocoded_case_count": 2,
@@ -128,6 +204,27 @@
       "case_ids": [
         "BM-0023",
         "BM-0024"
+      ]
+    },
+    {
+      "state": "IL",
+      "case_count": 3,
+      "geocoded_case_count": 3,
+      "center": {
+        "latitude": 41.288933,
+        "longitude": -87.8223
+      },
+      "case_status_counts": {
+        "Missing": 3
+      },
+      "classification_counts": {
+        "Adult Man": 2,
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0089",
+        "BM-0095",
+        "BM-0098"
       ]
     },
     {
@@ -157,20 +254,22 @@
     },
     {
       "state": "Indiana",
-      "case_count": 1,
-      "geocoded_case_count": 1,
+      "case_count": 2,
+      "geocoded_case_count": 2,
       "center": {
-        "latitude": 41.602096,
-        "longitude": -87.337065
+        "latitude": 41.597733,
+        "longitude": -87.341747
       },
       "case_status_counts": {
-        "Missing": 1
+        "Missing": 2
       },
       "classification_counts": {
-        "Adult Woman": 1
+        "Adult Woman": 1,
+        "Child": 1
       },
       "case_ids": [
-        "BM-0025"
+        "BM-0025",
+        "BM-0103"
       ]
     },
     {
@@ -192,22 +291,118 @@
       ]
     },
     {
-      "state": "Louisiana",
-      "case_count": 2,
-      "geocoded_case_count": 2,
+      "state": "LA",
+      "case_count": 1,
+      "geocoded_case_count": 1,
       "center": {
-        "latitude": 31.2795,
-        "longitude": -93.248436
+        "latitude": 32.0377,
+        "longitude": -93.7002
       },
       "case_status_counts": {
-        "Missing": 2
+        "Missing": 1
       },
       "classification_counts": {
-        "Adult Woman": 2
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0079"
+      ]
+    },
+    {
+      "state": "Louisiana",
+      "case_count": 3,
+      "geocoded_case_count": 3,
+      "center": {
+        "latitude": 31.771749,
+        "longitude": -92.789742
+      },
+      "case_status_counts": {
+        "Missing": 3
+      },
+      "classification_counts": {
+        "Adult Woman": 3
       },
       "case_ids": [
         "BM-0026",
-        "BM-0029"
+        "BM-0029",
+        "BM-0054"
+      ]
+    },
+    {
+      "state": "MD",
+      "case_count": 5,
+      "geocoded_case_count": 5,
+      "center": {
+        "latitude": 39.26956,
+        "longitude": -76.64492
+      },
+      "case_status_counts": {
+        "Missing": 5
+      },
+      "classification_counts": {
+        "Child": 4,
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0085",
+        "BM-0099",
+        "BM-0101",
+        "BM-0105",
+        "BM-0107"
+      ]
+    },
+    {
+      "state": "MI",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 42.3314,
+        "longitude": -83.0458
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0078"
+      ]
+    },
+    {
+      "state": "MO",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 38.7545,
+        "longitude": -90.3318
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0077"
+      ]
+    },
+    {
+      "state": "MS",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 33.6076,
+        "longitude": -88.6503
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0082"
       ]
     },
     {
@@ -296,6 +491,45 @@
       ]
     },
     {
+      "state": "NC",
+      "case_count": 3,
+      "geocoded_case_count": 3,
+      "center": {
+        "latitude": 35.920867,
+        "longitude": -77.772867
+      },
+      "case_status_counts": {
+        "Missing": 3
+      },
+      "classification_counts": {
+        "Adult Man": 2,
+        "Adult Woman": 1
+      },
+      "case_ids": [
+        "BM-0083",
+        "BM-0086",
+        "BM-0093"
+      ]
+    },
+    {
+      "state": "NY",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 40.6782,
+        "longitude": -73.9442
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "LGBTQ+": 1
+      },
+      "case_ids": [
+        "BM-0110"
+      ]
+    },
+    {
       "state": "New Hampshire",
       "case_count": 1,
       "geocoded_case_count": 1,
@@ -311,6 +545,24 @@
       },
       "case_ids": [
         "BM-0035"
+      ]
+    },
+    {
+      "state": "New Providence",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 25.0443,
+        "longitude": -77.3504
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "LGBTQ+": 1
+      },
+      "case_ids": [
+        "BM-0108"
       ]
     },
     {
@@ -364,6 +616,24 @@
       ]
     },
     {
+      "state": "OH",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 39.1031,
+        "longitude": -84.512
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Adult Man": 1
+      },
+      "case_ids": [
+        "BM-0088"
+      ]
+    },
+    {
       "state": "Ohio",
       "case_count": 2,
       "geocoded_case_count": 2,
@@ -381,6 +651,24 @@
       "case_ids": [
         "BM-0057",
         "BM-0062"
+      ]
+    },
+    {
+      "state": "PA",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 39.9526,
+        "longitude": -75.1652
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0102"
       ]
     },
     {
@@ -406,6 +694,47 @@
       ]
     },
     {
+      "state": "TN",
+      "case_count": 1,
+      "geocoded_case_count": 1,
+      "center": {
+        "latitude": 35.1495,
+        "longitude": -90.049
+      },
+      "case_status_counts": {
+        "Missing": 1
+      },
+      "classification_counts": {
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0100"
+      ]
+    },
+    {
+      "state": "TX",
+      "case_count": 4,
+      "geocoded_case_count": 4,
+      "center": {
+        "latitude": 30.30985,
+        "longitude": -97.01725
+      },
+      "case_status_counts": {
+        "Missing": 4
+      },
+      "classification_counts": {
+        "Adult Woman": 2,
+        "Adult Man": 1,
+        "Child": 1
+      },
+      "case_ids": [
+        "BM-0076",
+        "BM-0080",
+        "BM-0094",
+        "BM-0106"
+      ]
+    },
+    {
       "state": "Tennessee",
       "case_count": 1,
       "geocoded_case_count": 1,
@@ -425,27 +754,45 @@
     },
     {
       "state": "Texas",
-      "case_count": 5,
-      "geocoded_case_count": 5,
+      "case_count": 4,
+      "geocoded_case_count": 4,
       "center": {
-        "latitude": 31.357187,
-        "longitude": -95.478983
+        "latitude": 32.526283,
+        "longitude": -95.935369
       },
       "case_status_counts": {
-        "Missing": 5
+        "Missing": 4
       },
       "classification_counts": {
         "Adult Man": 2,
-        "Adult Woman": 1,
-        "Child": 1,
-        "Elder": 1
+        "Adult Woman": 2
       },
       "case_ids": [
         "BM-0033",
         "BM-0043",
-        "BM-0054",
         "BM-0066",
         "BM-0075"
+      ]
+    },
+    {
+      "state": "VA",
+      "case_count": 3,
+      "geocoded_case_count": 3,
+      "center": {
+        "latitude": 37.370433,
+        "longitude": -77.0724
+      },
+      "case_status_counts": {
+        "Missing": 3
+      },
+      "classification_counts": {
+        "Adult Man": 2,
+        "LGBTQ+": 1
+      },
+      "case_ids": [
+        "BM-0092",
+        "BM-0096",
+        "BM-0109"
       ]
     },
     {

@@ -3,9 +3,9 @@
   "name": "black_missing_person_cases",
   "metadata": {
     "schema_version": "1.0.0",
-    "generated_on": "2026-08-05",
+    "generated_on": "2026-08-08",
     "source": "/json/cases.json",
-    "feature_count": 75,
+    "feature_count": 110,
     "coordinate_order": "longitude, latitude"
   },
   "features": [
@@ -28,7 +28,7 @@
         "missing_date": "2000-02-14",
         "city": "Shelby",
         "state": "North Carolina",
-        "case_summary_short": "Left her home during the early morning hours and was later seen walking along Highway 18 before disappearing. Her backpack was recovered over a year later, but she has never been found.",
+        "case_summary_short": "At age 9, Asha Jaquilla Degree disappeared from Shelby, North Carolina on February 14, 2000. Asha left her home during the early morning hours and was later seen walking along Highway 18 before disappearing. Her backpack was recovered over a year later, but she has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0001.jpg",
         "document_path": "/docs/BM-0001.md"
       }
@@ -52,7 +52,7 @@
         "missing_date": "2014-03-01",
         "city": "Washington D.C.",
         "state": "Washington D.C.",
-        "case_summary_short": "Was last seen in Washington, D.C., while in the care of Kahlil Malik Tatum after her family had lived in a homeless shelter for more than a year. She has never been found.",
+        "case_summary_short": "At age 8, Relisha Tenau Rudd disappeared from Washington D.C. on March 1, 2014. Relisha was last seen in Washington, D.C., while in the care of Kahlil Malik Tatum after her family had lived in a homeless shelter for more than a year. She has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0002.jpg",
         "document_path": "/docs/BM-0002.md"
       }
@@ -76,7 +76,7 @@
         "missing_date": "2001-07-06",
         "city": "Chicago",
         "state": "Illinois",
-        "case_summary_short": "Was last seen at her family's South Lake Park Avenue residence after her mother left for work around 6:30 a.m. She has not been seen since.",
+        "case_summary_short": "At age 10, Tionda Z. Bradley disappeared from Chicago, Illinois on July 6, 2001. Tionda was last seen at her family's South Lake Park Avenue residence after her mother left for work around 6:30 a.m. She has not been seen since. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0003.jpeg",
         "document_path": "/docs/BM-0003.md"
       }
@@ -100,7 +100,7 @@
         "missing_date": "2001-07-06",
         "city": "Chicago",
         "state": "Illinois",
-        "case_summary_short": "Was last seen at her family's South Lake Park Avenue residence after her mother left for work around 6:30 a.m. She has not been seen since.",
+        "case_summary_short": "At age 3, Diamond Yvette Bradley disappeared from Chicago, Illinois on July 6, 2001. Diamond was last seen at her family's South Lake Park Avenue residence after her mother left for work around 6:30 a.m. She has not been seen since. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0004.jpeg",
         "document_path": "/docs/BM-0004.md"
       }
@@ -124,7 +124,7 @@
         "missing_date": "2016-02-01",
         "city": "Oakland",
         "state": "California",
-        "case_summary_short": "Disappeared as a toddler two months before her mother, Nicole Fitts, vanished after leaving work in San Francisco. Neither mother nor daughter has been found.",
+        "case_summary_short": "At age 2, Arianna Fitts disappeared from Oakland, California on February 1, 2016. Arianna disappeared as a toddler two months before her mother, Nicole Fitts, vanished after leaving work in San Francisco. Neither mother nor daughter has been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0005.jpg",
         "document_path": "/docs/BM-0005.md"
       }
@@ -148,7 +148,7 @@
         "missing_date": "1999-01-23",
         "city": "Tacoma",
         "state": "Washington",
-        "case_summary_short": "Was spending the evening at a Tacoma bowling alley with nearly a dozen relatives when she disappeared. She has never been found.",
+        "case_summary_short": "At age 2, Teekah Latres Lewis disappeared from Tacoma, Washington on January 23, 1999. Teekah was spending the evening at a Tacoma bowling alley with nearly a dozen relatives when she disappeared. She has never been found. The disappearance is classified as Stranger Abduction.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0006.jpeg",
         "document_path": "/docs/BM-0006.md"
       }
@@ -172,7 +172,7 @@
         "missing_date": "2014-03-01",
         "city": "Camden",
         "state": "Mississippi",
-        "case_summary_short": "Was last seen playing outside her home before her mother left for the grocery store and told the children to go inside. She vanished during that period and remains missing.",
+        "case_summary_short": "At age 2, Myra Rena Lewis disappeared from Camden, Mississippi on March 1, 2014. Myra was last seen playing outside her home before her mother left for the grocery store and told the children to go inside. She vanished during that period and remains missing. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0007.jpeg",
         "document_path": "/docs/BM-0007.md"
       }
@@ -196,7 +196,7 @@
         "missing_date": "2001-01-18",
         "city": "Miami",
         "state": "Florida",
-        "case_summary_short": "Had been placed with an alleged grandmother or godmother after being removed from her mother's custody. She later disappeared while in that woman's care, and the case is investigated as a suspected homicide.",
+        "case_summary_short": "At age 4, Rilya Shenise Wilson disappeared from Miami, Florida on January 18, 2001. Rilya had been placed with an alleged grandmother or godmother after being removed from her mother's custody. She later disappeared while in that woman's care, and the case is investigated as a suspected homicide. The disappearance is classified as Suspected Homicide.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0008.jpeg",
         "document_path": "/docs/BM-0008.md"
       }
@@ -220,7 +220,7 @@
         "missing_date": "2009-01-10",
         "city": "Immokalee",
         "state": "Florida",
-        "case_summary_short": "Was left at his grandmother's home in Farm Workers Village while his mother went to work. He was last seen around 5:15 p.m. and has never been found.",
+        "case_summary_short": "At age 6, Adji Desir disappeared from Immokalee, Florida on January 10, 2009. Adji was left at his grandmother's home in Farm Workers Village while his mother went to work. He was last seen around 5:15 p.m. and has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0009.jpeg",
         "document_path": "/docs/BM-0009.md"
       }
@@ -244,7 +244,7 @@
         "missing_date": "2007-11-01",
         "city": "Greenwich",
         "state": "New York",
-        "case_summary_short": "Was last seen at his adoptive grandparents' home, where he spent the night alone with his adoptive father. He has never been found.",
+        "case_summary_short": "At age 12, Jaliek L. Rainwalker disappeared from Greenwich, New York on November 1, 2007. Jaliek was last seen at his adoptive grandparents' home, where he spent the night alone with his adoptive father. He has never been found. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0010.jpeg",
         "document_path": "/docs/BM-0010.md"
       }
@@ -268,7 +268,7 @@
         "missing_date": "1989-05-18",
         "city": "Manhattan",
         "state": "New York",
-        "case_summary_short": "Disappeared from the Martin Luther King Jr. Towers playground in Harlem. He has never been found.",
+        "case_summary_short": "At age 2, Christopher Milton Dansby disappeared from Manhattan, New York on May 18, 1989. Christopher disappeared from the Martin Luther King Jr. Towers playground in Harlem. He has never been found. The disappearance is classified as Stranger Abduction.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0011.jpg",
         "document_path": "/docs/BM-0011.md"
       }
@@ -292,7 +292,7 @@
         "missing_date": "1989-08-10",
         "city": "Manhattan",
         "state": "New York",
-        "case_summary_short": "Disappeared from the Martin Luther King Jr. Towers playground in Harlem while accompanied by his mother. He has never been found.",
+        "case_summary_short": "At age 1, Shane Anthony Walker disappeared from Manhattan, New York on August 10, 1989. Shane disappeared from the Martin Luther King Jr. Towers playground in Harlem while accompanied by his mother. He has never been found. The disappearance is classified as Stranger Abduction.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0012.jpg",
         "document_path": "/docs/BM-0012.md"
       }
@@ -316,7 +316,7 @@
         "missing_date": "2002-05-03",
         "city": "Milwaukee",
         "state": "Wisconsin",
-        "case_summary_short": "Her stepfather said he walked her to Hi-Mount Boulevard School around 8:00 a.m. She was not seen again.",
+        "case_summary_short": "At age 7, Alexis S. Patterson disappeared from Milwaukee, Wisconsin on May 3, 2002. Her stepfather said he walked her to Hi-Mount Boulevard School around 8:00 a.m. She was not seen again. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0013.jpg",
         "document_path": "/docs/BM-0013.md"
       }
@@ -340,7 +340,7 @@
         "missing_date": "2009-08-10",
         "city": "Oakland",
         "state": "California",
-        "case_summary_short": "Was reportedly last seen in Oakland's Rockridge district around 4:15 p.m. No confirmed trace of him has been found.",
+        "case_summary_short": "At age 5, Hassani Jamil Campbell disappeared from Oakland, California on August 10, 2009. Hassani was reportedly last seen in Oakland's Rockridge district around 4:15 p.m. No confirmed trace of him has been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0014.jpg",
         "document_path": "/docs/BM-0014.md"
       }
@@ -364,7 +364,7 @@
         "missing_date": "2010-10-09",
         "city": "Washington D.C.",
         "state": "Washington D.C.",
-        "case_summary_short": "Was last seen at the Washington, D.C., apartment she shared with her two young sons only five weeks after moving in. She is presumed deceased but has never been found.",
+        "case_summary_short": "At age 24, Unique RaQuel-Leona Harris disappeared from Washington D.C. on October 9, 2010. Unique was last seen at the Washington, D.C., apartment she shared with her two young sons only five weeks after moving in. She is presumed deceased but has never been found. The disappearance is classified as Suspected Homicide.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0015.jpg",
         "document_path": "/docs/BM-0015.md"
       }
@@ -388,7 +388,7 @@
         "missing_date": "2017-05-03",
         "city": "Baltimore",
         "state": "Maryland",
-        "case_summary_short": "Withdrew more than $500 from a Baltimore bank shortly before she vanished, an amount considered unusual for her. She is presumed deceased but has never been found.",
+        "case_summary_short": "At age 22, Akia Shawnta Eggleston disappeared from Baltimore, Maryland on May 3, 2017. Akia withdrew more than $500 from a Baltimore bank shortly before she vanished, an amount considered unusual for her. She is presumed deceased but has never been found. The disappearance is classified as Suspected Homicide.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0016.jpg",
         "document_path": "/docs/BM-0016.md"
       }
@@ -412,7 +412,7 @@
         "missing_date": "2011-12-18",
         "city": "Spanish Lake",
         "state": "Missouri",
-        "case_summary_short": "Was sitting in her car in the driveway before her father watched her drive away around 2:20 p.m. She has never been seen again.",
+        "case_summary_short": "At age 23, Phoenix Lucille Coldon disappeared from Spanish Lake, Missouri on December 18, 2011. Phoenix was sitting in her car in the driveway before her father watched her drive away around 2:20 p.m. She has never been seen again. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0017.jpg",
         "document_path": "/docs/BM-0017.md"
       }
@@ -436,7 +436,7 @@
         "missing_date": "2001-09-05",
         "city": "Wichita",
         "state": "Kansas",
-        "case_summary_short": "Was seen asleep in her bed around 12:30 a.m. and discovered missing approximately two and a half hours later. She has never been seen again.",
+        "case_summary_short": "At age 4, Jaquilla Evonne Scales disappeared from Wichita, Kansas on September 5, 2001. Jaquilla was seen asleep in her bed around 12:30 a.m. and discovered missing approximately two and a half hours later. She has never been seen again. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0018.jpg",
         "document_path": "/docs/BM-0018.md"
       }
@@ -460,7 +460,7 @@
         "missing_date": "1999-11-19",
         "city": "Nashville",
         "state": "Tennessee",
-        "case_summary_short": "Dropped her two-year-old son off at her sister's Nashville home for the night. She disappeared afterward and has never been found.",
+        "case_summary_short": "At age 23, Laresha Deana Walker disappeared from Nashville, Tennessee on November 19, 1999. Laresha dropped her two-year-old son off at her sister's Nashville home for the night. She disappeared afterward and has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0019.jpg",
         "document_path": "/docs/BM-0019.md"
       }
@@ -484,7 +484,7 @@
         "missing_date": "2009-02-12",
         "city": "Washington D.C.",
         "state": "Washington D.C.",
-        "case_summary_short": "Was last seen speaking with her boyfriend, Jose Angel Rodriguez-Cruz, at her Washington, D.C., home around 9:48 p.m. She has never been found.",
+        "case_summary_short": "At age 47, Pamela J. Butler disappeared from Washington D.C. on February 12, 2009. Pamela was last seen speaking with her boyfriend, Jose Angel Rodriguez-Cruz, at her Washington, D.C., home around 9:48 p.m. She has never been found. The disappearance is classified as Suspected Homicide.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0020.png",
         "document_path": "/docs/BM-0020.md"
       }
@@ -508,7 +508,7 @@
         "missing_date": "2018-10-02",
         "city": "Chicago",
         "state": "Illinois",
-        "case_summary_short": "Never arrived at the post office where she worked after calling in sick that day. She has not been heard from again.",
+        "case_summary_short": "At age 26, Kierra Michelle Coles disappeared from Chicago, Illinois on October 2, 2018. Kierra never arrived at the post office where she worked after calling in sick that day. She has not been heard from again. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0021.jpg",
         "document_path": "/docs/BM-0021.md"
       }
@@ -532,7 +532,7 @@
         "missing_date": "1993-07-22",
         "city": "Dillon",
         "state": "South Carolina",
-        "case_summary_short": "Was last seen leaving with her stepfather to visit a grocery store in Dillon. She has never been found.",
+        "case_summary_short": "At age 10, Shakeima Ann Cabbagestalk disappeared from Dillon, South Carolina on July 22, 1993. Shakeima was last seen leaving with her stepfather to visit a grocery store in Dillon. She has never been found. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0022.jpg",
         "document_path": "/docs/BM-0022.md"
       }
@@ -556,7 +556,7 @@
         "missing_date": "1990-03-18",
         "city": "Augusta",
         "state": "Georgia",
-        "case_summary_short": "Was last seen with her twin sister at a Pump-N-Shop gas station in Augusta. Neither sister has ever been found.",
+        "case_summary_short": "At age 15, Jeannette Latrice Millbrook disappeared from Augusta, Georgia on March 18, 1990. Jeannette was last seen with her twin sister at a Pump-N-Shop gas station in Augusta. Neither sister has ever been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0023.jpg",
         "document_path": "/docs/BM-0023.md"
       }
@@ -580,7 +580,7 @@
         "missing_date": "1990-03-18",
         "city": "Augusta",
         "state": "Georgia",
-        "case_summary_short": "Was last seen with her twin sister at a Pump-N-Shop gas station in Augusta. Neither sister has ever been found.",
+        "case_summary_short": "At age 15, Dannette Latonia Millbrook disappeared from Augusta, Georgia on March 18, 1990. Dannette was last seen with her twin sister at a Pump-N-Shop gas station in Augusta. Neither sister has ever been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0024.jpg",
         "document_path": "/docs/BM-0024.md"
       }
@@ -604,7 +604,7 @@
         "missing_date": "2015-07-25",
         "city": "Gary",
         "state": "Indiana",
-        "case_summary_short": "Disappeared from Gary with her young nephew, King Walker, during one of his regular weekend visits with relatives. Neither has been found.",
+        "case_summary_short": "At age 21, Diamond Daisy Bobbie Monet Bynum disappeared from Gary, Indiana on July 25, 2015. Diamond disappeared from Gary with her young nephew, King Walker, during one of his regular weekend visits with relatives. Neither has been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0025.jpg",
         "document_path": "/docs/BM-0025.md"
       }
@@ -628,7 +628,7 @@
         "missing_date": "2008-06-13",
         "city": "Lake Charles",
         "state": "Louisiana",
-        "case_summary_short": "Was gone when her cousin returned to their Lake Charles home after going out for breakfast. She has never been found.",
+        "case_summary_short": "At age 27, LaKisha Shantella Taylor disappeared from Lake Charles, Louisiana on June 13, 2008. LaKisha was gone when her cousin returned to their Lake Charles home after going out for breakfast. She has never been found. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0026.jpg",
         "document_path": "/docs/BM-0026.md"
       }
@@ -652,7 +652,7 @@
         "missing_date": "2004-04-21",
         "city": "Staten Island",
         "state": "New York",
-        "case_summary_short": "Left a relative's Staten Island home around 1:30 a.m. to visit a friend and never returned. She has not been heard from since.",
+        "case_summary_short": "At age 20, Shameeka M. Gordon-Dixon disappeared from Staten Island, New York on April 21, 2004. Shameeka left a relative's Staten Island home around 1:30 a.m. to visit a friend and never returned. She has not been heard from since. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0027.jpg",
         "document_path": "/docs/BM-0027.md"
       }
@@ -676,7 +676,7 @@
         "missing_date": "2020-03-28",
         "city": "Summerville",
         "state": "South Carolina",
-        "case_summary_short": "Was last seen at a Summerville motel after a heated argument with her husband. She has never been heard from again.",
+        "case_summary_short": "At age 28, Adrean Sade Capers disappeared from Summerville, South Carolina on March 28, 2020. Adrean was last seen at a Summerville motel after a heated argument with her husband. She has never been heard from again. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0028.jpg",
         "document_path": "/docs/BM-0028.md"
       }
@@ -700,7 +700,7 @@
         "missing_date": "2022-12-31",
         "city": "Ringgold",
         "state": "Louisiana",
-        "case_summary_short": "Was last seen at a New Year's Eve party in Ringgold while living with Vernon Parker after a recent move from Dallas. She has never been found.",
+        "case_summary_short": "At age 43, Kimberly Moore disappeared from Ringgold, Louisiana on December 31, 2022. Kimberly was last seen at a New Year's Eve party in Ringgold while living with Vernon Parker after a recent move from Dallas. She has never been found. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0029.jpg",
         "document_path": "/docs/BM-0029.md"
       }
@@ -724,7 +724,7 @@
         "missing_date": "2016-05-19",
         "city": "Tumwater",
         "state": "Washington",
-        "case_summary_short": "Was last seen in Tumwater and has never been heard from again. No confirmed trace of him has been found.",
+        "case_summary_short": "At age 19, Logan Drew Schiendelman disappeared from Tumwater, Washington on May 19, 2016. Logan was last seen in Tumwater and has never been heard from again. No confirmed trace of him has been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0030.jpg",
         "document_path": "/docs/BM-0030.md"
       }
@@ -748,7 +748,7 @@
         "missing_date": "2020-12-22",
         "city": "Talladega",
         "state": "Alabama",
-        "case_summary_short": "Left his Talladega apartment and was never heard from again. A vehicle believed to be connected to his disappearance was later found abandoned and burned.",
+        "case_summary_short": "At age 19, Stacey Lynch disappeared from Talladega, Alabama on December 22, 2020. Stacey left his Talladega apartment and was never heard from again. A vehicle believed to be connected to his disappearance was later found abandoned and burned. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0031.jpg",
         "document_path": "/docs/BM-0031.md"
       }
@@ -772,7 +772,7 @@
         "missing_date": "2001-12-19",
         "city": "Jemison",
         "state": "Alabama",
-        "case_summary_short": "Left his Jemison residence for a walk along Chilton County Road 785 and never returned. He has never been found.",
+        "case_summary_short": "At age 29, Robert Lee Archie disappeared from Jemison, Alabama on December 19, 2001. Robert left his Jemison residence for a walk along Chilton County Road 785 and never returned. He has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0032.jpg",
         "document_path": "/docs/BM-0032.md"
       }
@@ -783,20 +783,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.367697,
-          29.758938
+          -97.081954,
+          32.837073
         ]
       },
       "properties": {
         "case_id": "BM-0033",
-        "full_name": "Chris Frank",
+        "full_name": "Typhenie Kae Johnson",
         "case_status": "Missing",
-        "classification": "Elder",
-        "case_classification": "Endangered Missing",
-        "missing_date": "1996-09-10",
-        "city": "Houston",
+        "classification": "Adult Woman",
+        "case_classification": "Involuntary Missing",
+        "missing_date": "2016-10-10",
+        "city": "Euless",
         "state": "Texas",
-        "case_summary_short": "Disappeared after being released from jail in Houston. He has never been heard from again.",
+        "case_summary_short": "At age 25, Typhenie Kae Johnson was last seen speaking with her former boyfriend outside her Euless, Texas, apartment complex. Her cell phone and a sock were later found near the parking area, and her keys were located on top of her vehicle. Her former boyfriend was convicted of aggravated kidnapping in connection with her disappearance. Johnson has not been found.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0033.jpg",
         "document_path": "/docs/BM-0033.md"
       }
@@ -820,7 +820,7 @@
         "missing_date": "2024-07-04",
         "city": "Greeley",
         "state": "Colorado",
-        "case_summary_short": "Last spoke with his family while believed to be in Greeley, after which their daily attempts to reach him went unanswered. He has never been heard from again.",
+        "case_summary_short": "At age 55, Steven Curtis Talley disappeared from Greeley, Colorado on July 4, 2024. Steven last spoke with his family while believed to be in Greeley, after which their daily attempts to reach him went unanswered. He has never been heard from again. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0034.jpg",
         "document_path": "/docs/BM-0034.md"
       }
@@ -844,7 +844,7 @@
         "missing_date": "2019-04-20",
         "city": "Nashua",
         "state": "New Hampshire",
-        "case_summary_short": "Was last seen at the Tropical Lounge in Nashua while out with friends. He has not been heard from since.",
+        "case_summary_short": "At age 29, Michael Anthony McClain disappeared from Nashua, New Hampshire on April 20, 2019. Michael was last seen at the Tropical Lounge in Nashua while out with friends. He has not been heard from since. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0035.jpg",
         "document_path": "/docs/BM-0035.md"
       }
@@ -868,7 +868,7 @@
         "missing_date": "2005-08-10",
         "city": "Manhattan",
         "state": "New York",
-        "case_summary_short": "Was last seen near Houston and Pitt Streets in Manhattan around 7:00 p.m. No further circumstances have been made public.",
+        "case_summary_short": "At age 14, Edmond Tillman disappeared from Manhattan, New York on August 10, 2005. Edmond was last seen near Houston and Pitt Streets in Manhattan around 7:00 p.m. No further circumstances have been made public. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0036.jpg",
         "document_path": "/docs/BM-0036.md"
       }
@@ -892,7 +892,7 @@
         "missing_date": "2016-01-07",
         "city": "Greensboro",
         "state": "North Carolina",
-        "case_summary_short": "Left the Stoneybrook Apartments saying she planned to visit a friend. Her phone's GPS signal stopped, and she never returned home.",
+        "case_summary_short": "At age 19, Tyarra Cacique Williams disappeared from Greensboro, North Carolina on January 7, 2016. Tyarra left the Stoneybrook Apartments saying she planned to visit a friend. Her phone's GPS signal stopped, and she never returned home. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0037.jpg",
         "document_path": "/docs/BM-0037.md"
       }
@@ -916,7 +916,7 @@
         "missing_date": "1994-12-11",
         "city": "Livonia",
         "state": "Michigan",
-        "case_summary_short": "Was reported missing from a Livonia shopping mall, but investigators said they did not believe he had been there that day. His disappearance remains unresolved.",
+        "case_summary_short": "At age 4, D'Wan Christian Sims disappeared from Livonia, Michigan on December 11, 1994. D'Wan was reported missing from a Livonia shopping mall, but investigators said they did not believe he had been there that day. His disappearance remains unresolved. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0038.jpg",
         "document_path": "/docs/BM-0038.md"
       }
@@ -940,7 +940,7 @@
         "missing_date": "2011-10-11",
         "city": "Glendale",
         "state": "Arizona",
-        "case_summary_short": "Was reported missing from her Glendale home. Her mother was later convicted of murder and child abuse, but her body has never been found.",
+        "case_summary_short": "At age 5, Jhessye Jash'ua Shockley disappeared from Glendale, Arizona on October 11, 2011. Jhessye was reported missing from her Glendale home. Her mother was later convicted of murder and child abuse, but her body has never been found. The disappearance is classified as Suspected Homicide.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0039.jpg",
         "document_path": "/docs/BM-0039.md"
       }
@@ -964,7 +964,7 @@
         "missing_date": "2002-04-25",
         "city": "San Diego",
         "state": "California",
-        "case_summary_short": "Was reported missing from Balboa Park, although investigators documented conflicting accounts of what happened. Foul play is suspected, and his remains have never been found.",
+        "case_summary_short": "At age 2, Jahi Marques Turner disappeared from San Diego, California on April 25, 2002. Jahi was reported missing from Balboa Park, although investigators documented conflicting accounts of what happened. Foul play is suspected, and his remains have never been found. The disappearance is classified as Suspected Homicide.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0040.png",
         "document_path": "/docs/BM-0040.md"
       }
@@ -988,7 +988,7 @@
         "missing_date": "1989-03-29",
         "city": "Brooklyn",
         "state": "New York",
-        "case_summary_short": "Disappeared after his mother was abducted and killed when he was one month old. Authorities have considered whether he was taken for an illegal adoption.",
+        "case_summary_short": "At age 0, Andre Terrence Bryant disappeared from Brooklyn, New York on March 29, 1989. Andre disappeared after his mother was abducted and killed when he was one month old. Authorities have considered whether he was taken for an illegal adoption. The disappearance is classified as Stranger Abduction.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0041.jpg",
         "document_path": "/docs/BM-0041.md"
       }
@@ -1012,7 +1012,7 @@
         "missing_date": "2016-09-26",
         "city": "Richmond",
         "state": "Virginia",
-        "case_summary_short": "Vanished after saying she planned to stay with a friend. Police later found her blood and phone SIM card inside a residence, and foul play is suspected.",
+        "case_summary_short": "At age 21, Keeshae Eunique Jacobs disappeared from Richmond, Virginia on September 26, 2016. Keeshae vanished after saying she planned to stay with a friend. Police later found her blood and phone SIM card inside a residence, and foul play is suspected. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0042.jpg",
         "document_path": "/docs/BM-0042.md"
       }
@@ -1036,7 +1036,7 @@
         "missing_date": "2021-02-03",
         "city": "Grandview",
         "state": "Texas",
-        "case_summary_short": "Was last captured on surveillance at a gas station. Her vehicle was later found abandoned along Interstate 35, but she remains missing.",
+        "case_summary_short": "At age 39, Cynthia Martyna Bah-Traore disappeared from Grandview, Texas on February 3, 2021. Cynthia was last captured on surveillance at a gas station. Her vehicle was later found abandoned along Interstate 35, but she remains missing. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0043.jpg",
         "document_path": "/docs/BM-0043.md"
       }
@@ -1060,7 +1060,7 @@
         "missing_date": "2014-05-24",
         "city": "Detroit",
         "state": "Michigan",
-        "case_summary_short": "Was last seen in Detroit with her mother and infant half-brother, Kristian. Their mother was later found deceased, but both children remain missing.",
+        "case_summary_short": "At age 6, Kaylah Neveah Hunter disappeared from Detroit, Michigan on May 24, 2014. Kaylah was last seen in Detroit with her mother and infant half-brother, Kristian. Their mother was later found deceased, but both children remain missing. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0044.jpg",
         "document_path": "/docs/BM-0044.md"
       }
@@ -1084,7 +1084,7 @@
         "missing_date": "2020-02-13",
         "city": "Kent",
         "state": "Washington",
-        "case_summary_short": "Was reported missing from Kent, Washington. No additional circumstances surrounding her disappearance have been made public.",
+        "case_summary_short": "At age 16, Asia Wilbon disappeared from Kent, Washington on February 13, 2020. Asia was reported missing from Kent, Washington. No additional circumstances surrounding her disappearance have been made public. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0045.jpg",
         "document_path": "/docs/BM-0045.md"
       }
@@ -1108,7 +1108,7 @@
         "missing_date": "2014-12-04",
         "city": "Detroit",
         "state": "Michigan",
-        "case_summary_short": "Disappeared after an argument while visiting a friend in Detroit. She left important belongings behind and has not been heard from since.",
+        "case_summary_short": "At age 18, Jasmine Sherea Moody disappeared from Detroit, Michigan on December 4, 2014. Jasmine disappeared after an argument while visiting a friend in Detroit. She left important belongings behind and has not been heard from since. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0046.jpg",
         "document_path": "/docs/BM-0046.md"
       }
@@ -1132,7 +1132,7 @@
         "missing_date": "2022-01-02",
         "city": "Baltimore",
         "state": "Maryland",
-        "case_summary_short": "Was last seen in the 1600 block of North Hilton Street in Baltimore. No additional circumstances surrounding her disappearance have been made public.",
+        "case_summary_short": "At age 13, Autumn Fagan disappeared from Baltimore, Maryland on January 2, 2022. Autumn was last seen in the 1600 block of North Hilton Street in Baltimore. No additional circumstances surrounding her disappearance have been made public. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0047.jpg",
         "document_path": "/docs/BM-0047.md"
       }
@@ -1156,7 +1156,7 @@
         "missing_date": "2014-05-24",
         "city": "Detroit",
         "state": "Michigan",
-        "case_summary_short": "Was last seen in Detroit with his mother and half-sister, Kaylah, when he was eight months old. Their mother was later found deceased, but both children remain missing.",
+        "case_summary_short": "At age 0, Kristian Dejuan Justice disappeared from Detroit, Michigan on May 24, 2014. Kristian was last seen in Detroit with his mother and half-sister, Kaylah, when he was eight months old. Their mother was later found deceased, but both children remain missing. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0048.jpg",
         "document_path": "/docs/BM-0048.md"
       }
@@ -1180,7 +1180,7 @@
         "missing_date": "2011-11-22",
         "city": "Columbia",
         "state": "South Carolina",
-        "case_summary_short": "Was last seen with his mother during the Thanksgiving period in 2011. No confirmed sighting of him has been reported since.",
+        "case_summary_short": "At age 1, Amir D'Rod Jennings disappeared from Columbia, South Carolina on November 22, 2011. Amir was last seen with his mother during the Thanksgiving period in 2011. No confirmed sighting of him has been reported since. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0049.jpg",
         "document_path": "/docs/BM-0049.md"
       }
@@ -1204,7 +1204,7 @@
         "missing_date": "2003-12-07",
         "city": "Montgomery",
         "state": "Alabama",
-        "case_summary_short": "Was last seen leaving her Montgomery residence in a dark green four-door vehicle with unidentified people. She has not been seen since.",
+        "case_summary_short": "At age 19, LaQuanta Nachelle Riley disappeared from Montgomery, Alabama on December 7, 2003. LaQuanta was last seen leaving her Montgomery residence in a dark green four-door vehicle with unidentified people. She has not been seen since. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0050.jpg",
         "document_path": "/docs/BM-0050.md"
       }
@@ -1228,7 +1228,7 @@
         "missing_date": "2014-08-30",
         "city": "Gautier",
         "state": "Mississippi",
-        "case_summary_short": "Left his mother's Gautier home to meet friends at a nearby restaurant and never returned. He has not been heard from since.",
+        "case_summary_short": "At age 24, Desmond Moore disappeared from Gautier, Mississippi on August 30, 2014. Desmond left his mother's Gautier home to meet friends at a nearby restaurant and never returned. He has not been heard from since. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0051.jpg",
         "document_path": "/docs/BM-0051.md"
       }
@@ -1252,7 +1252,7 @@
         "missing_date": "2023-08-26",
         "city": "Fresno",
         "state": "California",
-        "case_summary_short": "Was reported missing from the 4600 block of East Florence Avenue in Fresno. No additional circumstances surrounding her disappearance have been made public.",
+        "case_summary_short": "At age 25, Micaela Faith Navarro disappeared from Fresno, California on August 26, 2023. Micaela was reported missing from the 4600 block of East Florence Avenue in Fresno. No additional circumstances surrounding her disappearance have been made public. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0052.jpg",
         "document_path": "/docs/BM-0052.md"
       }
@@ -1276,7 +1276,7 @@
         "missing_date": "1998-10-30",
         "city": "Montgomery",
         "state": "Alabama",
-        "case_summary_short": "Left to walk to a nearby Montgomery store and never returned. She remains missing.",
+        "case_summary_short": "At age 16, Kimberly Nicole Arrington disappeared from Montgomery, Alabama on October 30, 1998. Kimberly left to walk to a nearby Montgomery store and never returned. She remains missing. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0053.jpg",
         "document_path": "/docs/BM-0053.md"
       }
@@ -1287,20 +1287,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.367697,
-          29.758938
+          -91.872353,
+          32.756247
         ]
       },
       "properties": {
         "case_id": "BM-0054",
-        "full_name": "Laniya Beck",
+        "full_name": "Tabitha Yvette Queen",
         "case_status": "Missing",
-        "classification": "Child",
-        "case_classification": "Missing Under Mysterious Circumstances",
-        "missing_date": "2024-03-20",
-        "city": "Houston",
-        "state": "Texas",
-        "case_summary_short": "Was last seen in Houston on March 20, 2024. No additional circumstances surrounding her disappearance have been made public.",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2021-05-10",
+        "city": "Bastrop",
+        "state": "Louisiana",
+        "case_summary_short": "At age 29, Tabitha Yvette Queen disappeared from Bastrop, Louisiana on May 10, 2021. Tabitha was last seen on surveillance video at a Save-U-More grocery store in Bastrop on May 10, 2021. Her vehicle was later found abandoned after an unidentified Black man parked it and walked away. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0054.jpg",
         "document_path": "/docs/BM-0054.md"
       }
@@ -1324,7 +1324,7 @@
         "missing_date": "2013-06-29",
         "city": "Chicago",
         "state": "Illinois",
-        "case_summary_short": "Was last seen near the 4200 block of West 21st Street in Chicago. No additional circumstances surrounding his disappearance have been made public.",
+        "case_summary_short": "At age 20, Malcolm Abbington disappeared from Chicago, Illinois on June 29, 2013. Malcolm was last seen near the 4200 block of West 21st Street in Chicago. No additional circumstances surrounding his disappearance have been made public. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0055.jpg",
         "document_path": "/docs/BM-0055.md"
       }
@@ -1348,7 +1348,7 @@
         "missing_date": "2016-12-18",
         "city": "Chicago",
         "state": "Illinois",
-        "case_summary_short": "Was reportedly taken against her will by several unknown men and may have been placed in a blue Mazda. She has never been found.",
+        "case_summary_short": "At age 33, Joanna Wright disappeared from Chicago, Illinois on December 18, 2016. Joanna was reportedly taken against her will by several unknown men and may have been placed in a blue Mazda. She has never been found. The disappearance is classified as Stranger Abduction.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0056.jpg",
         "document_path": "/docs/BM-0056.md"
       }
@@ -1372,7 +1372,7 @@
         "missing_date": "2013-06-19",
         "city": "Columbus",
         "state": "Ohio",
-        "case_summary_short": "Left four young children and her personal belongings behind. A witness reported seeing her being pushed into a black vehicle.",
+        "case_summary_short": "At age 26, Shaniece Mona Briggs disappeared from Columbus, Ohio on June 19, 2013. Shaniece left four young children and her personal belongings behind. A witness reported seeing her being pushed into a black vehicle. The disappearance is classified as Suspected Abduction.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0057.png",
         "document_path": "/docs/BM-0057.md"
       }
@@ -1396,7 +1396,7 @@
         "missing_date": "1999-09-06",
         "city": "Baltimore",
         "state": "Maryland",
-        "case_summary_short": "Left his Baltimore residence to walk to a local store and never returned. He has never been found.",
+        "case_summary_short": "At age 80, Garfield James Meekins disappeared from Baltimore, Maryland on September 6, 1999. Garfield left his Baltimore residence to walk to a local store and never returned. He has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0058.jpg",
         "document_path": "/docs/BM-0058.md"
       }
@@ -1420,7 +1420,7 @@
         "missing_date": "2005-07-01",
         "city": "Baltimore",
         "state": "Maryland",
-        "case_summary_short": "Was last known to be with a female relative. Few additional circumstances surrounding his disappearance have been made public.",
+        "case_summary_short": "At age 10, Garnell Munroe Moore disappeared from Baltimore, Maryland on July 1, 2005. Garnell was last known to be with a female relative. Few additional circumstances surrounding his disappearance have been made public. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0059.jpg",
         "document_path": "/docs/BM-0059.md"
       }
@@ -1444,7 +1444,7 @@
         "missing_date": "2014-01-03",
         "city": "Chicago",
         "state": "Illinois",
-        "case_summary_short": "Was last seen in the 4200 block of South Langley Avenue in Chicago. No additional circumstances surrounding his disappearance have been made public.",
+        "case_summary_short": "At age 16, Devion Colford disappeared from Chicago, Illinois on January 3, 2014. Devion was last seen in the 4200 block of South Langley Avenue in Chicago. No additional circumstances surrounding his disappearance have been made public. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0060.jpg",
         "document_path": "/docs/BM-0060.md"
       }
@@ -1468,7 +1468,7 @@
         "missing_date": "2022-01-30",
         "city": "Anderson",
         "state": "South Carolina",
-        "case_summary_short": "Was last seen near an Anderson County 7-Eleven after meeting the father of one of her children. Her vehicle was later captured on highway cameras, but she remains missing.",
+        "case_summary_short": "At age 29, Alexis D. Ware disappeared from Anderson, South Carolina on January 30, 2022. Alexis was last seen near an Anderson County 7-Eleven after meeting the father of one of her children. Her vehicle was later captured on highway cameras, but she remains missing. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0061.jpg",
         "document_path": "/docs/BM-0061.md"
       }
@@ -1485,14 +1485,14 @@
       },
       "properties": {
         "case_id": "BM-0062",
-        "full_name": "Devin \"Sacoya\" Cooper",
+        "full_name": "Devin (Sacoya) Cooper",
         "case_status": "Missing",
         "classification": "LGBTQ+",
         "case_classification": "Missing Under Mysterious Circumstances",
         "missing_date": "2021-09-01",
         "city": "Columbus",
         "state": "Ohio",
-        "case_summary_short": "Left home to visit a corner store and never returned. Her vehicle was recovered, and the FBI has offered a reward for information about her disappearance.",
+        "case_summary_short": "At age 33, Devin (Sacoya) Cooper disappeared from Columbus, Ohio on September 1, 2021. Sacoya left home to visit a corner store and never returned. Her vehicle was recovered, and the FBI has offered a reward for information about her disappearance. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0062.jpg",
         "document_path": "/docs/BM-0062.md"
       }
@@ -1516,7 +1516,7 @@
         "missing_date": "2004-01-12",
         "city": "Naples",
         "state": "Florida",
-        "case_summary_short": "Was last seen after an encounter with a Collier County sheriff's deputy in North Naples. His disappearance remains under investigation.",
+        "case_summary_short": "At age 27, Terrance Deon Williams disappeared from Naples, Florida on January 12, 2004. Terrance was last seen after an encounter with a Collier County sheriff's deputy in North Naples. His disappearance remains under investigation. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0063.jpg",
         "document_path": "/docs/BM-0063.md"
       }
@@ -1540,7 +1540,7 @@
         "missing_date": "1984-04-08",
         "city": "Baltimore",
         "state": "Maryland",
-        "case_summary_short": "Disappeared without her passport, leaving behind mobility aids she used because of multiple sclerosis and other personal belongings. She has never been found.",
+        "case_summary_short": "At age 39, Stephanie Marie Gant-Brady disappeared from Baltimore, Maryland on April 8, 1984. Stephanie disappeared without her passport, leaving behind mobility aids she used because of multiple sclerosis and other personal belongings. She has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0064.jpg",
         "document_path": "/docs/BM-0064.md"
       }
@@ -1564,7 +1564,7 @@
         "missing_date": "2014-10-10",
         "city": "Rumsey",
         "state": "California",
-        "case_summary_short": "Last contacted family while driving north through the Sacramento area. His vehicle was later found at a regional park near Rumsey, but he remains missing.",
+        "case_summary_short": "At age 37, Rico Omarr Harris disappeared from Rumsey, California on October 10, 2014. Rico last contacted family while driving north through the Sacramento area. His vehicle was later found at a regional park near Rumsey, but he remains missing. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0065.jpg",
         "document_path": "/docs/BM-0065.md"
       }
@@ -1588,7 +1588,7 @@
         "missing_date": "2011-06-25",
         "city": "Longview",
         "state": "Texas",
-        "case_summary_short": "Disappeared from his Longview residence, which appeared to have been left suddenly. His personal belongings and money were left behind.",
+        "case_summary_short": "At age 33, Anthony Tyrone Lee disappeared from Longview, Texas on June 25, 2011. Anthony disappeared from his Longview residence, which appeared to have been left suddenly. His personal belongings and money were left behind. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0066.jpg",
         "document_path": "/docs/BM-0066.md"
       }
@@ -1612,7 +1612,7 @@
         "missing_date": "1970-06-13",
         "city": "Winston-Salem",
         "state": "North Carolina",
-        "case_summary_short": "Took a bus into downtown Winston-Salem and never returned home. A lengthy search found no trace of her.",
+        "case_summary_short": "At age 14, Sherri Lee Truesdale disappeared from Winston-Salem, North Carolina on June 13, 1970. Sherri took a bus into downtown Winston-Salem and never returned home. A lengthy search found no trace of her. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0067.jpg",
         "document_path": "/docs/BM-0067.md"
       }
@@ -1636,7 +1636,7 @@
         "missing_date": "1997-05-25",
         "city": "Greensboro",
         "state": "North Carolina",
-        "case_summary_short": "Was last seen entering his Greensboro residence. Investigators suspect foul play, but he has never been found.",
+        "case_summary_short": "At age 36, Sterling Thomas Porter disappeared from Greensboro, North Carolina on May 25, 1997. Sterling was last seen entering his Greensboro residence. Investigators suspect foul play, but he has never been found. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0068.jpg",
         "document_path": "/docs/BM-0068.md"
       }
@@ -1660,7 +1660,7 @@
         "missing_date": "2016-01-15",
         "city": "Wilmington",
         "state": "North Carolina",
-        "case_summary_short": "Disappeared without her medication, identification, purse, or vehicles and left her daughter behind. She has never been found.",
+        "case_summary_short": "At age 30, Ebonee S. Spears disappeared from Wilmington, North Carolina on January 15, 2016. Ebonee disappeared without her medication, identification, purse, or vehicles and left her daughter behind. She has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0069.jpg",
         "document_path": "/docs/BM-0069.md"
       }
@@ -1684,7 +1684,7 @@
         "missing_date": "2014-04-05",
         "city": "Richmond",
         "state": "Virginia",
-        "case_summary_short": "Was last seen after leaving a venue in Richmond. He had a seizure disorder requiring medication and has never been found.",
+        "case_summary_short": "At age 24, Randall William Collins disappeared from Richmond, Virginia on April 5, 2014. Randall was last seen after leaving a venue in Richmond. He had a seizure disorder requiring medication and has never been found. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0070.jpg",
         "document_path": "/docs/BM-0070.md"
       }
@@ -1708,7 +1708,7 @@
         "missing_date": "2013-11-22",
         "city": "Charlotte",
         "state": "North Carolina",
-        "case_summary_short": "Was last seen leaving her Charlotte residence in the 6200 block of Donna Drive. No additional circumstances surrounding her disappearance have been made public.",
+        "case_summary_short": "At age 16, Jamekia Shaneice Sabb disappeared from Charlotte, North Carolina on November 22, 2013. Jamekia was last seen leaving her Charlotte residence in the 6200 block of Donna Drive. No additional circumstances surrounding her disappearance have been made public. The disappearance is classified as Endangered Missing.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0071.jpg",
         "document_path": "/docs/BM-0071.md"
       }
@@ -1732,7 +1732,7 @@
         "missing_date": "1990-04-16",
         "city": "Richmond",
         "state": "Virginia",
-        "case_summary_short": "Disappeared while playing with his brother. His brother's body was later found, but he remains missing.",
+        "case_summary_short": "At age 7, Jamal Basil Abdul'Faruq disappeared from Richmond, Virginia on April 16, 1990. Jamal disappeared while playing with his brother. His brother's body was later found, but he remains missing. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0072.jpg",
         "document_path": "/docs/BM-0072.md"
       }
@@ -1749,14 +1749,14 @@
       },
       "properties": {
         "case_id": "BM-0073",
-        "full_name": "Dashad \"Sage\" Smith",
+        "full_name": "Dashad (Sage) Smith",
         "case_status": "Presumed Deceased",
         "classification": "LGBTQ+",
         "case_classification": "Suspected Homicide",
         "missing_date": "2012-11-20",
         "city": "Charlottesville",
         "state": "Virginia",
-        "case_summary_short": "Vanished after planning to meet an acquaintance. Police later treated her disappearance as a homicide investigation, but her body has never been found.",
+        "case_summary_short": "At age 19, Dashad (Sage) Smith disappeared from Charlottesville, Virginia on November 20, 2012. Sage vanished after planning to meet an acquaintance. Police later treated her disappearance as a homicide investigation, but her body has never been found. The disappearance is classified as Suspected Homicide.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0073.jpg",
         "document_path": "/docs/BM-0073.md"
       }
@@ -1780,7 +1780,7 @@
         "missing_date": "2021-06-23",
         "city": "Buckeye",
         "state": "Arizona",
-        "case_summary_short": "Left a remote work site in Buckeye and vanished. His damaged vehicle was later found in a ravine, but extensive searches have not located him.",
+        "case_summary_short": "At age 24, Daniel Robinson disappeared from Buckeye, Arizona on June 23, 2021. Daniel left a remote work site in Buckeye and vanished. His damaged vehicle was later found in a ravine, but extensive searches have not located him. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0074.jpg",
         "document_path": "/docs/BM-0074.md"
       }
@@ -1804,9 +1804,849 @@
         "missing_date": "2003-08-04",
         "city": "Longview",
         "state": "Texas",
-        "case_summary_short": "Was last seen leaving a relative's Longview residence with two unidentified men in a small white four-door vehicle. He has not been heard from since.",
+        "case_summary_short": "At age 42, Raymond Paul Jones disappeared from Longview, Texas on August 4, 2003. Raymond was last seen leaving a relative's Longview residence with two unidentified men in a small white four-door vehicle. He has not been heard from since. The disappearance is classified as Missing Under Mysterious Circumstances.",
         "image_url": "https://black-missing-person-database.vercel.app/images/BM-0075.jpg",
         "document_path": "/docs/BM-0075.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4625,
+          31.7877
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0076",
+        "full_name": "Danielle Nicole Alexander",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2005-10-25",
+        "city": "Wortham",
+        "state": "TX",
+        "case_summary_short": "At age 19, Danielle Nicole Alexander disappeared from Wortham, TX on October 25, 2005. Danielle left her Wortham residence around 9:00 a.m., saying she was walking to a nearby gas station and would return soon. She requires medication and has never been found. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0076.jpg",
+        "document_path": "/docs/BM-0076.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3318,
+          38.7545
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0077",
+        "full_name": "Kelly Allen",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2007-03-13",
+        "city": "Berkley",
+        "state": "MO",
+        "case_summary_short": "At age 20, Kelly Allen disappeared from Berkley, MO on March 13, 2007. Kelly was last seen at a friend's Berkley residence; later that day, her belongings were still inside but she was gone. She has never been found. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0077.jpg",
+        "document_path": "/docs/BM-0077.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0458,
+          42.3314
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0078",
+        "full_name": "Lekisha Allen",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2015-09-03",
+        "city": "Detroit",
+        "state": "MI",
+        "case_summary_short": "At age 37, Lekisha Allen disappeared from Detroit, MI on September 3, 2015. Lekisha was last seen by her brother-in-law near Five Mile Road and Greenfield Road in Detroit. She requires medication for bipolar disorder and schizophrenia and remains missing. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0078.jpg",
+        "document_path": "/docs/BM-0078.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7002,
+          32.0377
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0079",
+        "full_name": "Constance Anderson",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2006-01-24",
+        "city": "Mansfield",
+        "state": "LA",
+        "case_summary_short": "At age 19, Constance Anderson disappeared from Mansfield, LA on January 24, 2006. Constance was last seen at her Mansfield residence, then called a friend around 1:30 a.m. saying she was coming over. She never arrived and remains missing. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0079.jpg",
+        "document_path": "/docs/BM-0079.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7431,
+          30.2672
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0080",
+        "full_name": "Jennifer Joyce Barton",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1976-05-16",
+        "city": "Austin",
+        "state": "TX",
+        "case_summary_short": "At age 20, Jennifer Joyce Barton disappeared from Austin, TX on May 16, 1976. Jennifer went to the movies with a friend and was later seen near 11th and Waller Streets speaking with a man. She has never been found. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0080.jpg",
+        "document_path": "/docs/BM-0080.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1052,
+          33.7123
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0081",
+        "full_name": "Ilonda Banks",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2013-12-28",
+        "city": "Lithonia",
+        "state": "GA",
+        "case_summary_short": "At age 20, Ilonda Banks disappeared from Lithonia, GA on December 28, 2013. Ilonda was last seen around 1:00 p.m. at a home on Kimberland Gardens Lane in Lithonia. She has a cognitive disability and remains missing. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0081.jpg",
+        "document_path": "/docs/BM-0081.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.6503,
+          33.6076
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0082",
+        "full_name": "Jessie Barnes",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2000-07-07",
+        "city": "West Point",
+        "state": "MS",
+        "case_summary_short": "At age 28, Jessie Barnes disappeared from West Point, MS on July 7, 2000. Jessie was last seen late in the afternoon at a family member's residence on Little Street in West Point. She has a medical condition and has never been found. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0082.jpg",
+        "document_path": "/docs/BM-0082.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8611,
+          35.3232
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0083",
+        "full_name": "Kierra Westine Barnett",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2006-12-20",
+        "city": "Edward",
+        "state": "NC",
+        "case_summary_short": "At age 21, Kierra Westine Barnett disappeared from Edward, NC on December 20, 2006. Kierra was reported missing after her family had not seen or heard from her for five days. Investigators believe criminal activity may be involved, and she remains missing. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0083.jpg",
+        "document_path": "/docs/BM-0083.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4944,
+          38.5816
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0084",
+        "full_name": "Latrice Lacole Belton",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Involuntary Missing",
+        "missing_date": "2013-04-11",
+        "city": "Sacramento",
+        "state": "CA",
+        "case_summary_short": "At age 32, Latrice Lacole Belton disappeared from Sacramento, CA on April 11, 2013. Latrice was last seen in the 4300 block of Stockton Boulevard in Sacramento. No additional circumstances surrounding her disappearance have been made public. The disappearance is classified as Involuntary Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0084.jpg",
+        "document_path": "/docs/BM-0084.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6122,
+          39.2904
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0085",
+        "full_name": "Edna Mae Bland",
+        "case_status": "Missing",
+        "classification": "Adult Woman",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1999-07-06",
+        "city": "Baltimore",
+        "state": "MD",
+        "case_summary_short": "At age 33, Edna Mae Bland disappeared from Baltimore, MD on July 6, 1999. Edna was last seen at her home on Hollins Street in Baltimore. No additional circumstances surrounding her disappearance have been made public. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0085.jpg",
+        "document_path": "/docs/BM-0085.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8986,
+          35.994
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0086",
+        "full_name": "Leon Allan Addison",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2012-09-05",
+        "city": "Durham",
+        "state": "NC",
+        "case_summary_short": "At age 29, Leon Allan Addison disappeared from Durham, NC on September 5, 2012. Leon left his Durham residence for a walk without his cellphone or wallet and never returned. He has never been found. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0086.jpg",
+        "document_path": "/docs/BM-0086.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1445,
+          34.1478
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0087",
+        "full_name": "Dion Andre Afeworki",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2015-06-22",
+        "city": "Pasadena",
+        "state": "CA",
+        "case_summary_short": "At age 30, Dion Andre Afeworki disappeared from Pasadena, CA on June 22, 2015. Dion was last seen at the Allen Avenue Gold Line station in Pasadena around 11:00 a.m. He requires medication for schizophrenia and depression and remains missing. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0087.jpg",
+        "document_path": "/docs/BM-0087.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512,
+          39.1031
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0088",
+        "full_name": "Dion Tremayne Akemon",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2005-09-26",
+        "city": "Cincinnati",
+        "state": "OH",
+        "case_summary_short": "At age 32, Dion Tremayne Akemon disappeared from Cincinnati, OH on September 26, 2005. Dion was last seen with his half-brother, who is also missing, near a white van outside the Parktown Cafe in Cincinnati. Neither man has been found. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0088.jpg",
+        "document_path": "/docs/BM-0088.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2073,
+          40.1106
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0089",
+        "full_name": "Montell Aker",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2011-08-18",
+        "city": "Urbana",
+        "state": "IL",
+        "case_summary_short": "At age 19, Montell Aker disappeared from Urbana, IL on August 18, 2011. Montell left his Urbana home saying he planned to visit friends, possibly in Rantoul, and never returned. He had no cellphone or known access to money and stopped posting online. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0089.jpg",
+        "document_path": "/docs/BM-0089.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1937,
+          33.7701
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0090",
+        "full_name": "Terence Akins",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2020-09-29",
+        "city": "Long Beach",
+        "state": "CA",
+        "case_summary_short": "At age 41, Terence Akins disappeared from Long Beach, CA on September 29, 2020. Terence was last seen at his residence in the 1900 block of Atlantic Avenue in Long Beach. No additional circumstances surrounding his disappearance have been made public. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0090.jpg",
+        "document_path": "/docs/BM-0090.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2963,
+          26.0078
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0091",
+        "full_name": "Austin Alexander",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2024-03-08",
+        "city": "Pembroke Pines",
+        "state": "FL",
+        "case_summary_short": "At age 31, Austin Alexander disappeared from Pembroke Pines, FL on March 8, 2024. Austin was last seen at his home near the 8500 block of Pines Boulevard in Pembroke Pines. No additional circumstances surrounding his disappearance have been made public. The disappearance is classified as Missing Under Mysterious Circumstances.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0091.jpg",
+        "document_path": "/docs/BM-0091.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3452,
+          37.0299
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0092",
+        "full_name": "Joemain Daval Holland",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2026-05-09",
+        "city": "Hampton",
+        "state": "VA",
+        "case_summary_short": "At age 41, Joemain Daval Holland disappeared from Hampton, VA on May 9, 2026. Joemain was last seen on Wine Street in Hampton. Virginia State Police issued a critically missing adult alert because his disappearance posed a threat to his health and safety. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0092.jpg",
+        "document_path": "/docs/BM-0092.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5589,
+          36.4454
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0093",
+        "full_name": "Shawn Corneilus Alston",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2012-10-18",
+        "city": "Garysburg",
+        "state": "NC",
+        "case_summary_short": "At age 39, Shawn Corneilus Alston disappeared from Garysburg, NC on October 18, 2012. Shawn left a friend's Garysburg home to walk to his nearby residence and was not seen again. Ground and aerial searches found no trace of him. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0093.jpg",
+        "document_path": "/docs/BM-0093.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0094",
+        "full_name": "Devin TraVon Angelle",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2021-10-24",
+        "city": "Houston",
+        "state": "TX",
+        "case_summary_short": "At age 26, Devin TraVon Angelle disappeared from Houston, TX on October 24, 2021. Devin has not been seen or heard from since October 24, 2021. No additional circumstances surrounding his disappearance have been made public. The disappearance is classified as Missing Under Mysterious Circumstances.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0094.jpg",
+        "document_path": "/docs/BM-0094.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6298,
+          41.8781
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0095",
+        "full_name": "Brian Kelvin Andrewin",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "1995-07-10",
+        "city": "Chicago",
+        "state": "IL",
+        "case_summary_short": "At age 16, Brian Kelvin Andrewin disappeared from Chicago, IL on July 10, 1995. Brian was last seen playing basketball with friends at a Chicago park. He has not been seen or heard from since. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0095.jpg",
+        "document_path": "/docs/BM-0095.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.436,
+          37.5407
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0096",
+        "full_name": "Devin Atkinson",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Missing Under Mysterious Circumstances",
+        "missing_date": "2022-09-20",
+        "city": "Richmond",
+        "state": "VA",
+        "case_summary_short": "At age 31, Devin Atkinson disappeared from Richmond, VA on September 20, 2022. Devin was last seen around noon in the 1000 block of Newkirk Drive in Richmond. No additional circumstances surrounding his disappearance have been made public. The disappearance is classified as Missing Under Mysterious Circumstances.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0096.jpg",
+        "document_path": "/docs/BM-0096.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0173,
+          34.8958
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0097",
+        "full_name": "Karl Davon Ballinger",
+        "case_status": "Missing",
+        "classification": "Adult Man",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2023-04-15",
+        "city": "Barstow",
+        "state": "CA",
+        "case_summary_short": "At age 41, Karl Davon Ballinger disappeared from Barstow, CA on April 15, 2023. Karl was last seen leaving work in Rialto. His vehicle was later found abandoned on a highway near Ludlow, approximately 50 miles from Barstow. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0097.jpg",
+        "document_path": "/docs/BM-0097.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6298,
+          41.8781
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0098",
+        "full_name": "Yasmin Rayon Acree",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2008-01-15",
+        "city": "Chicago",
+        "state": "IL",
+        "case_summary_short": "At age 15, Yasmin Rayon Acree disappeared from Chicago, IL on January 15, 2008. Yasmin was last seen at her Chicago home with her mother's boyfriend. She has never been found. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0098.jpg",
+        "document_path": "/docs/BM-0098.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8483,
+          39.0993
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0099",
+        "full_name": "Jessica Agbenu Abba",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2022-06-04",
+        "city": "Laurel",
+        "state": "MD",
+        "case_summary_short": "At age 15, Jessica Agbenu Abba disappeared from Laurel, MD on June 4, 2022. Jessica was last seen in the 8200 block of Northlake Court in Laurel. No additional circumstances surrounding her disappearance have been made public. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0099.jpg",
+        "document_path": "/docs/BM-0099.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.049,
+          35.1495
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0100",
+        "full_name": "K'alani Abron",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2024-09-19",
+        "city": "Memphis",
+        "state": "TN",
+        "case_summary_short": "At age 15, K'alani Abron disappeared from Memphis, TN on September 19, 2024. K'alani was last seen in the 3100 block of Redwood Drive in Memphis. No additional circumstances surrounding her disappearance have been made public. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0100.jpg",
+        "document_path": "/docs/BM-0100.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6122,
+          39.2904
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0101",
+        "full_name": "Makiah Bailey",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2023-06-14",
+        "city": "Baltimore",
+        "state": "MD",
+        "case_summary_short": "At age 16, Makiah Bailey disappeared from Baltimore, MD on June 14, 2023. Makiah disappeared from northwest Baltimore and has not been seen or heard from since. Her family believes she may have remained in the area with an adult man. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0101.jpg",
+        "document_path": "/docs/BM-0101.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1652,
+          39.9526
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0102",
+        "full_name": "Cheniya Baker",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2018-12-05",
+        "city": "Philadelphia",
+        "state": "PA",
+        "case_summary_short": "At age 14, Cheniya Baker disappeared from Philadelphia, PA on December 5, 2018. Cheniya was last seen by her mother leaving their residence in the 1400 block of South Vodges Street in Philadelphia. She has not been seen since. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0102.jpg",
+        "document_path": "/docs/BM-0102.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.34643,
+          41.59337
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0103",
+        "full_name": "Ja'Niyah Aubrielle McMichael",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2024-08-11",
+        "city": "Gary",
+        "state": "Indiana",
+        "case_summary_short": "At age 13, Ja'Niyah Aubrielle McMichael disappeared from Gary, Indiana on August 11, 2024. Ja'Niyah was last seen at her home in the 1900 block of Malcolm X Boulevard in Gary. She may remain in the area or may have traveled to Chicago, and investigators suspect foul play. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0103.jpg",
+        "document_path": "/docs/BM-0103.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0211,
+          32.4074
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0104",
+        "full_name": "Tarasha Benjamin",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2010-06-26",
+        "city": "Selma",
+        "state": "AL",
+        "case_summary_short": "At age 17, Tarasha Benjamin disappeared from Selma, AL on June 26, 2010. Tarasha left her Selma home to visit a flea market. Her vehicle was later found abandoned on Route 80 approximately one mile from the market, but she has never been found. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0104.jpg",
+        "document_path": "/docs/BM-0104.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6122,
+          39.2904
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0105",
+        "full_name": "De'Nita Barrett",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2012-11-27",
+        "city": "Baltimore",
+        "state": "MD",
+        "case_summary_short": "At age 13, De'Nita Barrett disappeared from Baltimore, MD on November 27, 2012. De'Nita was last seen around 7:15 a.m. in the 900 block of North Linwood Avenue in Baltimore. She has not been seen since. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0105.jpg",
+        "document_path": "/docs/BM-0105.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4936,
+          29.4241
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0106",
+        "full_name": "Malayah Christopher",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2026-05-21",
+        "city": "San Antonio",
+        "state": "TX",
+        "case_summary_short": "At age 16, Malayah Christopher disappeared from San Antonio, TX on May 21, 2026. Malayah was last seen speaking with a friend outside Southwest High School on Dragon Lane in San Antonio. She has not been seen since. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0106.jpg",
+        "document_path": "/docs/BM-0106.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5397,
+          39.3773
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0107",
+        "full_name": "Emmanuel Adebisi",
+        "case_status": "Missing",
+        "classification": "Child",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2015-06-01",
+        "city": "Parkville",
+        "state": "MD",
+        "case_summary_short": "At age 14, Emmanuel Adebisi disappeared from Parkville, MD on June 1, 2015. Emmanuel left his Parkville home and was later seen on the grounds of Loch Raven Academy. Police were called, but he ran away and has not been seen since. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0107.jpg",
+        "document_path": "/docs/BM-0107.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3504,
+          25.0443
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0108",
+        "full_name": "Taylor Casey",
+        "case_status": "Missing",
+        "classification": "LGBTQ+",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2024-06-19",
+        "city": "Nassau",
+        "state": "New Providence",
+        "case_summary_short": "At age 41, Taylor Casey disappeared from Nassau, New Providence on June 19, 2024. Taylor was last seen while attending a yoga retreat in the Paradise Island and Nassau area. Her phone was later found in the water, but she remains missing. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0108.jpg",
+        "document_path": "/docs/BM-0108.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.436,
+          37.5407
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0109",
+        "full_name": "Lovely (Angie) Brooks",
+        "case_status": "Missing",
+        "classification": "LGBTQ+",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2023-01-10",
+        "city": "Richmond",
+        "state": "VA",
+        "case_summary_short": "At age 53, Lovely (Angie) Brooks disappeared from Richmond, VA on January 10, 2023. Angie was last seen leaving her Richmond residence and left most of her belongings behind. Investigators have said foul play is possible, but she remains missing. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0109.jpg",
+        "document_path": "/docs/BM-0109.md"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BM-0110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9442,
+          40.6782
+        ]
+      },
+      "properties": {
+        "case_id": "BM-0110",
+        "full_name": "Tirrel (Mia) Santiago",
+        "case_status": "Missing",
+        "classification": "LGBTQ+",
+        "case_classification": "Endangered Missing",
+        "missing_date": "2005-08-20",
+        "city": "Brooklyn",
+        "state": "NY",
+        "case_summary_short": "At age 16, Tirrel (Mia) Santiago disappeared from Brooklyn, NY on August 20, 2005. Mia was last seen entering a cab near West 10th Street and Hudson Avenue in Brooklyn with an unknown man. Her family reported her missing five days later, and she remains missing. The disappearance is classified as Endangered Missing.",
+        "image_url": "https://black-missing-person-database.vercel.app/images/BM-0110.jpg",
+        "document_path": "/docs/BM-0110.md"
       }
     }
   ]

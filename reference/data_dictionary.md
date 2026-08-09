@@ -16,15 +16,18 @@ This dictionary defines every field in `data/cases.csv`, the canonical dataset f
 | `last_seen_city` | String | Yes | City or locality associated with the recorded last-seen location. |
 | `last_seen_state` | String | Yes | State or district associated with the recorded last-seen location. |
 | `last_seen_country` | String | Yes | Country associated with the recorded last-seen location. |
-| `case_summary` | Text | Yes | Detailed canonical case summary containing the principal known facts and context. |
-| `case_summary_short` | Text | Yes | One- or two-sentence overview for cards, tables, dashboards, and search results. |
-| `overview` | Text | Yes | Reviewed narrative used verbatim in the document's Overview section. |
-| `circumstances` | Text | Yes | Reviewed account of the known events surrounding the disappearance, written in neutral language. |
+| `case_summary` | Text | Yes | Detailed six- to eight-sentence canonical case summary containing the principal known facts and context. |
+| `case_summary_short` | Text | Yes | Three- or four-sentence overview used for case cards, map-marker hovers, tables, dashboards, and search results. |
 | `investigation_summary` | Text | Yes | Reviewed description of the investigative status, agencies, public developments, and tip channels supported by the sources. |
-| `timeline` | JSON text | Yes | Ordered JSON array of event objects. Every object requires nonempty `label` and `description` properties. |
+| `timeline` | JSON text | Yes | Ordered JSON array of substantive case events. Every object contains exactly `label` and `description`; a dated event uses a readable date as its label. Routine verification or open-status checks are not timeline events. |
 | `notes` | Text | Yes | Case-specific editorial or interpretive notes that do not belong in the factual narrative. Notes must not introduce unsupported claims. |
-| `lead_agencies` | Delimited string | Yes | Investigating agency names. Multiple values are separated with semicolons. |
-| `lead_agency_phone` | Delimited string | Yes | Public case-tip or agency telephone numbers. Multiple values are separated with semicolons; a number may serve more than one listed agency. |
+| `primary_agency` | String | Yes | First investigating agency listed in the reviewed public case material. This ordering does not independently establish command authority. |
+| `secondary_agency` | String | No | Second investigating agency listed for the case, when applicable. |
+| `tertiary_agency` | String | No | Third investigating agency listed for the case, when applicable. |
+| `primary_agency_phone` | String | Yes | Main public telephone number listed for the primary agency. |
+| `primary_agency_alternate_phone` | String | No | Additional public telephone number for the primary agency, when applicable. |
+| `secondary_agency_phone` | String | No | Public telephone number listed for the secondary agency, when applicable. |
+| `tertiary_agency_phone` | String | No | Public telephone number listed for the tertiary agency, when applicable. |
 | `primary_source_url` | URL | Yes | Active HTTP or HTTPS link to the principal case source. |
 | `secondary_source_url` | URL | Yes | Active HTTP or HTTPS link used to corroborate or supplement the principal source. |
 | `primary_source_type` | Controlled string | Yes | Type of primary record. Approved values are documented below. |
@@ -52,7 +55,7 @@ This dictionary defines every field in `data/cases.csv`, the canonical dataset f
 
 - Required fields must not be blank.
 - Unknown information must not be guessed. If the schema later permits a null value, it should be represented consistently and explained in this dictionary.
-- Multiple agencies and phone numbers use semicolons; keywords use vertical bars.
+- Each agency and phone number has its own column; keywords use vertical bars.
 - Narrative fields use plain text without Markdown headings. The generator supplies document structure.
 - Source and image links must use complete HTTP or HTTPS URLs.
 - Coordinates identify the recorded locality and should not be interpreted as an exact disappearance point unless a cited source explicitly establishes that precision.

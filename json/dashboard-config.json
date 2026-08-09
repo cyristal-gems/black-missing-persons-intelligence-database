@@ -15,8 +15,8 @@
   "default_view": "map",
   "map": {
     "center": {
-      "latitude": 37.223747,
-      "longitude": -88.174703
+      "latitude": 36.917813,
+      "longitude": -88.008961
     },
     "zoom": 4,
     "cluster_markers": true,
@@ -50,6 +50,7 @@
       "type": "multi_select",
       "options": [
         "Endangered Missing",
+        "Involuntary Missing",
         "Missing Under Mysterious Circumstances",
         "Stranger Abduction",
         "Suspected Abduction",

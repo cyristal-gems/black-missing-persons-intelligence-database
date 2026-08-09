@@ -1,30 +1,31 @@
 {
   "schema_version": "1.0.0",
-  "generated_on": "2026-08-05",
+  "generated_on": "2026-08-08",
   "source": "/json/cases.json",
-  "total_cases": 75,
-  "geocoded_cases": 75,
+  "total_cases": 110,
+  "geocoded_cases": 110,
   "cases_without_coordinates": 0,
   "missing_date_range": {
     "earliest_year": 1970,
-    "latest_year": 2024
+    "latest_year": 2026
   },
   "by_case_status": {
-    "Missing": 71,
+    "Missing": 106,
     "Presumed Deceased": 4
   },
   "by_classification": {
-    "Child": 34,
-    "Adult Woman": 22,
-    "Adult Man": 14,
-    "LGBTQ+": 3,
-    "Elder": 2
+    "Child": 43,
+    "Adult Woman": 34,
+    "Adult Man": 26,
+    "LGBTQ+": 6,
+    "Elder": 1
   },
   "by_case_classification": {
-    "Endangered Missing": 37,
-    "Missing Under Mysterious Circumstances": 25,
+    "Endangered Missing": 68,
+    "Missing Under Mysterious Circumstances": 27,
     "Suspected Homicide": 7,
     "Stranger Abduction": 5,
+    "Involuntary Missing": 2,
     "Suspected Abduction": 1
   },
   "by_state": {
@@ -32,39 +33,58 @@
     "New York": 6,
     "North Carolina": 6,
     "California": 5,
+    "MD": 5,
     "Maryland": 5,
-    "Texas": 5,
     "Alabama": 4,
+    "CA": 4,
     "Michigan": 4,
     "South Carolina": 4,
+    "TX": 4,
+    "Texas": 4,
     "Virginia": 4,
     "Florida": 3,
+    "IL": 3,
+    "Louisiana": 3,
+    "NC": 3,
+    "VA": 3,
     "Washington": 3,
     "Washington D.C.": 3,
     "Arizona": 2,
     "Georgia": 2,
-    "Louisiana": 2,
+    "Indiana": 2,
     "Mississippi": 2,
     "Ohio": 2,
+    "AL": 1,
     "Colorado": 1,
-    "Indiana": 1,
+    "FL": 1,
+    "GA": 1,
     "Kansas": 1,
+    "LA": 1,
+    "MI": 1,
+    "MO": 1,
+    "MS": 1,
     "Missouri": 1,
+    "NY": 1,
     "New Hampshire": 1,
+    "New Providence": 1,
+    "OH": 1,
+    "PA": 1,
+    "TN": 1,
     "Tennessee": 1,
     "Wisconsin": 1
   },
   "by_media_prominence": {
-    "obscure_or_limited_coverage": 53,
-    "moderately_known": 13,
-    "well_known": 9
+    "obscure_or_limited_coverage": 83,
+    "moderately_known": 15,
+    "well_known": 9,
+    "limited_or_regional_coverage": 3
   },
   "by_missing_decade": {
-    "2010s": 28,
-    "2000s": 19,
-    "2020s": 12,
-    "1990s": 11,
+    "2010s": 40,
+    "2000s": 27,
+    "2020s": 25,
+    "1990s": 12,
     "1980s": 4,
-    "1970s": 1
+    "1970s": 2
   }
 }

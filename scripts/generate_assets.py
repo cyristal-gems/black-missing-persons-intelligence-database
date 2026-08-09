@@ -25,6 +25,14 @@ RELATED_CASES = {
     "BM-0048": [("BM-0044", "Kaylah Neveah Hunter")],
 }
 
+AGENCY_COLUMNS = ("primary_agency", "secondary_agency", "tertiary_agency")
+PHONE_COLUMNS = (
+    "primary_agency_phone",
+    "primary_agency_alternate_phone",
+    "secondary_agency_phone",
+    "tertiary_agency_phone",
+)
+
 
 def clean(value):
     return (value or "").strip()
@@ -74,20 +82,30 @@ def source_entries(row):
 
 
 def public_investigation_summary(row):
+    detailed_summary = clean(row.get("investigation_summary"))
+    if detailed_summary:
+        return detailed_summary
     status = clean(row["investigative_status"])
     classification = clean(row["case_classification"])
     return f"The case is currently recorded as {status} and is classified as {classification}."
 
 
 def normalized_case(row):
-    agencies = split_values(row["lead_agencies"])
-    phones = split_values(row["lead_agency_phone"])
+    agencies = [clean(row[column]) for column in AGENCY_COLUMNS if clean(row[column])]
+    phones = [clean(row[column]) for column in PHONE_COLUMNS if clean(row[column])]
     timeline = json.loads(clean(row["timeline"]))
     if not isinstance(timeline, list) or not timeline:
         raise RuntimeError(f"{clean(row['case_id'])}: timeline must contain at least one event")
+    excluded_timeline_labels = {"Case Remains Open", "Last Known Sighting", "Present", "Subsequent development"}
     for event in timeline:
-        if not isinstance(event, dict) or not clean(event.get("label")) or not clean(event.get("description")):
-            raise RuntimeError(f"{clean(row['case_id'])}: every timeline event needs a label and description")
+        if not isinstance(event, dict) or set(event) != {"label", "description"}:
+            raise RuntimeError(
+                f"{clean(row['case_id'])}: every timeline event must contain exactly label and description"
+            )
+        if not clean(event["label"]) or not clean(event["description"]):
+            raise RuntimeError(f"{clean(row['case_id'])}: timeline labels and descriptions cannot be empty")
+        if clean(event["label"]) in excluded_timeline_labels:
+            raise RuntimeError(f"{clean(row['case_id'])}: timeline uses a generic or routine-status label")
 
     return {
         "case_id": clean(row["case_id"]),
@@ -106,8 +124,6 @@ def normalized_case(row):
         },
         "case_summary": clean(row["case_summary"]),
         "case_summary_short": clean(row["case_summary_short"]),
-        "overview": clean(row["overview"]),
-        "circumstances": clean(row["circumstances"]),
         "investigation_summary": public_investigation_summary(row),
         "timeline": [
             {"label": clean(event["label"]), "description": clean(event["description"])}
@@ -148,6 +164,8 @@ def source_name(url):
         "namus.nij.ojp.gov": "National Missing and Unidentified Persons System",
         "blackandmissinginc.com": "Black and Missing Foundation",
         "doenetwork.org": "The Doe Network",
+        "dps.texas.gov": "Texas Department of Public Safety",
+        "police.fortworthtexas.gov": "Fort Worth Police Department",
     }
     if domain in known:
         return known[domain]
@@ -167,66 +185,16 @@ def split_sentences(text):
     }
     for original, token in abbreviations.items():
         protected = protected.replace(original, token)
+    protected = re.sub(r"\b([A-Z])\.(?=\s+[A-Z][A-Za-z'’()-]+)", r"\1¤", protected)
     parts = re.split(r"(?<=[.!?])\s+(?=[A-Z])", protected)
     restored = []
     for part in parts:
         for original, token in abbreviations.items():
             part = part.replace(token, original)
+        part = part.replace("¤", ".")
         if part.strip():
             restored.append(part.strip())
     return restored
-
-
-def token_set(sentence):
-    return set(re.findall(r"[a-z0-9]+", sentence.lower()))
-
-
-def similar_sentence(left, right):
-    a, b = token_set(left), token_set(right)
-    if not a or not b:
-        return False
-    return len(a & b) / len(a | b) >= 0.72
-
-
-def ensure_subject(sentence, case):
-    complete_subjects = (
-        "A ", "An ", "Authorities ", "Few ", "He ", "Her ", "His ",
-        "Investigators ", "Neither ", "No ", "Police ", "She ", "The ",
-        "Their ", "They ", "This ", "Witnesses ",
-    )
-    if sentence.startswith(complete_subjects):
-        return sentence
-    first_name = case["full_name"].split()[0]
-    return f"{first_name} {sentence[0].lower()}{sentence[1:]}"
-
-
-def circumstances_text(case):
-    long_parts = split_sentences(case["case_summary"])
-    if long_parts and case["full_name"].lower() in long_parts[0].lower():
-        long_parts = long_parts[1:]
-    long_parts = [
-        sentence for sentence in long_parts
-        if not sentence.startswith("The current case status is")
-    ]
-    short_parts = [ensure_subject(sentence, case) for sentence in split_sentences(case["case_summary_short"])]
-    candidates = long_parts + short_parts
-    selected = []
-    for sentence in candidates:
-        if not any(similar_sentence(sentence, existing) for existing in selected):
-            selected.append(sentence)
-    result = " ".join(selected)
-    if len(result.split()) < 35:
-        location = ", ".join(filter(None, [
-            case["last_seen"]["city"],
-            case["last_seen"]["state"],
-            case["last_seen"]["country"],
-        ]))
-        result += (
-            f" At the time of the disappearance, {case['full_name']} was {case['age_at_missing']} years old, "
-            f"and the recorded last-seen location was {location}. The case is classified as "
-            f"{case['case_classification']}."
-        )
-    return result
 
 
 def join_words(items):
@@ -245,8 +213,7 @@ def render_case_markdown(row, case):
     ]))
     missing_date_display = long_date(case["missing_date"])
     last_updated_display = long_date(GENERATED_ON)
-    overview = case["overview"]
-    circumstances = case["circumstances"]
+    case_summary = case["case_summary"]
     agencies = join_words(case["investigation"]["agencies"])
     investigation = case["investigation_summary"]
     timeline_lines = [
@@ -305,9 +272,9 @@ image: {json.dumps(site_image_path)}
 
 **Case ID:** {case["case_id"]}
 
-## Overview
+## Case Summary
 
-{overview}
+{case_summary}
 
 ---
 
@@ -323,12 +290,6 @@ image: {json.dumps(site_image_path)}
 | Last Seen | {location} |
 | Investigative Status | {case["investigation"]["status"]} |
 | Lead Agencies | {agencies} |
-
----
-
-## Circumstances
-
-{circumstances}
 
 ---
 
@@ -388,16 +349,23 @@ except UnicodeDecodeError:
     source_encoding = "mac_roman"
 rows = list(csv.DictReader(io.StringIO(csv_text, newline="")))
 
-required = {
+required_columns = {
     "case_id", "full_name", "case_status", "classification", "missing_date",
     "age_at_missing", "case_classification", "last_seen_city", "last_seen_state",
-    "last_seen_country", "case_summary", "case_summary_short", "lead_agencies",
-    "overview", "circumstances", "investigation_summary", "timeline", "notes",
-    "lead_agency_phone", "primary_source_url", "secondary_source_url",
+    "last_seen_country", "case_summary", "case_summary_short",
+    "investigation_summary", "timeline", "notes",
+    "primary_source_url", "secondary_source_url",
     "primary_source_type", "media_prominence", "keywords", "investigative_status",
     "image_url", "latitude", "longitude", "last_verified_date",
 }
-missing_columns = required.difference(rows[0].keys() if rows else set())
+required_columns.update(AGENCY_COLUMNS)
+required_columns.update(PHONE_COLUMNS)
+optional_fields = {
+    "secondary_agency", "tertiary_agency",
+    "primary_agency_alternate_phone", "secondary_agency_phone", "tertiary_agency_phone",
+}
+required_values = required_columns.difference(optional_fields)
+missing_columns = required_columns.difference(rows[0].keys() if rows else set())
 if missing_columns:
     raise RuntimeError(f"Missing required CSV columns: {sorted(missing_columns)}")
 
@@ -410,12 +378,17 @@ if any(not re.fullmatch(r"BM-\d{4}", case_id) for case_id in case_ids):
 validation_errors = []
 for row_number, row in enumerate(rows, start=2):
     case_id = clean(row["case_id"]) or f"CSV row {row_number}"
-    for field in required:
+    for field in required_values:
         if not clean(row.get(field)):
             validation_errors.append(f"{case_id}: required field '{field}' is blank")
 
-    if len(split_sentences(clean(row["case_summary_short"]))) not in (1, 2):
-        validation_errors.append(f"{case_id}: case_summary_short must contain one or two sentences")
+    case_summary_sentences = len(split_sentences(clean(row["case_summary"])))
+    if not 6 <= case_summary_sentences <= 8:
+        validation_errors.append(f"{case_id}: case_summary must contain six to eight sentences")
+
+    short_summary_sentences = len(split_sentences(clean(row["case_summary_short"])))
+    if not 3 <= short_summary_sentences <= 4:
+        validation_errors.append(f"{case_id}: case_summary_short must contain three to four sentences")
 
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", iso_missing_date(row["missing_date"]) or ""):
         validation_errors.append(f"{case_id}: missing_date is invalid")
@@ -424,8 +397,8 @@ for row_number, row in enumerate(rows, start=2):
     except ValueError:
         validation_errors.append(f"{case_id}: last_verified_date must use YYYY-MM-DD")
 
-    agencies = split_values(row["lead_agencies"])
-    phones = split_values(row["lead_agency_phone"])
+    agencies = [clean(row[column]) for column in AGENCY_COLUMNS if clean(row[column])]
+    phones = [clean(row[column]) for column in PHONE_COLUMNS if clean(row[column])]
     if not agencies or not phones:
         validation_errors.append(f"{case_id}: at least one lead agency and contact number are required")
 

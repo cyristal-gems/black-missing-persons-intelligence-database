@@ -14,7 +14,7 @@ PROJECT = Path(__file__).resolve().parents[1]
 CASES_PATH = PROJECT / "json" / "cases.json"
 CASE_ROUTES = PROJECT / "cases"
 SITE_URL = "https://black-missing-person-database.vercel.app"
-ASSET_VERSION = "20260805b"
+ASSET_VERSION = "20260808c"
 
 RELATED_CASES = {
     "BM-0003": [("BM-0004", "Diamond Yvette Bradley")],
@@ -36,10 +36,11 @@ MULTI_AGENCY_PHONE_COUNTS = {
     "BM-0012": [1, 1],
     "BM-0013": [2, 1],
     "BM-0021": [1, 1],
-    "BM-0061": [1, 0, 0],
-    "BM-0062": [1, 0],
-    "BM-0063": [1, 0, 0],
-    "BM-0066": [1, 0],
+    "BM-0033": [2, 1],
+    "BM-0061": [1, 1, 1],
+    "BM-0062": [1, 1],
+    "BM-0063": [1, 1, 1],
+    "BM-0066": [1, 1],
 }
 
 
@@ -77,6 +78,8 @@ def source_name(url):
         "namus.nij.ojp.gov": "National Missing and Unidentified Persons System",
         "blackandmissinginc.com": "Black and Missing Foundation",
         "doenetwork.org": "The Doe Network",
+        "dps.texas.gov": "Texas Department of Public Safety",
+        "police.fortworthtexas.gov": "Fort Worth Police Department",
     }
     return names.get(domain, domain or "Case source")
 
@@ -142,10 +145,9 @@ def render_case(case):
 <main id="main-content">
   <section class="case-detail-hero"><div class="shell"><a class="back-link" href="/cases/">← Back to case directory</a><div class="case-detail-grid">
     <div class="case-portrait"><img src="/images/{esc(image_name)}" alt="{esc(full_name)}" width="600" height="750"></div>
-    <div class="case-detail-copy"><div class="case-detail-meta"><span class="case-id">{esc(case_id)}</span><span class="status-pill{status_class}">{esc(case["case_status"])}</span><span class="status-pill">{esc(case["classification"])}</span></div><h1>{esc(full_name)}</h1><p>{esc(case["overview"])}</p></div>
+    <div class="case-detail-copy"><div class="case-detail-meta"><span class="case-id">{esc(case_id)}</span><span class="status-pill{status_class}">{esc(case["case_status"])}</span><span class="status-pill">{esc(case["classification"])}</span></div><h1>{esc(full_name)}</h1><p>{esc(case["case_summary"])}</p></div>
   </div></div></section>
   <section class="case-content"><div class="shell case-content-grid"><article class="case-story">
-    <section><h2>Circumstances</h2><p>{esc(case["circumstances"])}</p></section>
     <section><h2>Investigation</h2><p>{esc(case["investigation_summary"])}</p></section>
     <section><h2>Timeline</h2><ol class="timeline">{timeline}</ol></section>
     <section><h2>Physical Description</h2><p>At the time of the disappearance, {esc(full_name)} was {esc(case["age_at_missing"])} years old. The record is categorized as {esc(case["classification"])}. Additional physical identifiers should be confirmed through the active source profiles.</p></section>

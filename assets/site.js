@@ -91,7 +91,7 @@ function renderYearChart(cases) {
     const heightLevel = count ? Math.max(1, Math.round((count / maximum) * 20)) : 0;
     const caseLabel = count === 1 ? "case" : "cases";
     const showYear = year === firstYear || year === lastYear || year % 5 === 0;
-    return `<div class="year-column${count ? " has-cases" : " no-cases"}"><div class="year-bar${count ? ` height-level-${heightLevel}` : ""}"${count ? ' tabindex="0"' : ""} aria-label="${year}: ${count} ${caseLabel}">${count ? `<span class="year-count" aria-hidden="true">${count}</span><span class="year-tooltip" aria-hidden="true">${year} · ${count} ${caseLabel}</span>` : ""}</div><span class="year-label" aria-hidden="true">${showYear ? year : ""}</span></div>`;
+    return `<div class="year-column${count ? " has-cases" : " no-cases"}"><div class="year-bar${count ? ` height-level-${heightLevel}` : ""}"${count ? ' tabindex="0"' : ""} aria-label="${year}: ${count} ${caseLabel}">${count ? `<span class="year-count" aria-hidden="true">${count}</span><span class="year-tooltip" aria-hidden="true">${count} ${caseLabel}</span>` : ""}</div><span class="year-label" aria-hidden="true">${showYear ? year : ""}</span></div>`;
   }).join("");
 
   requestAnimationFrame(() => {
