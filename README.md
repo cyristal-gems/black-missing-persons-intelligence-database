@@ -40,3 +40,12 @@ The Black Missing Persons Intelligence Database brings source-backed information
 - **LinkedIn:** [linkedin.com/in/cyristalj](https://www.linkedin.com/in/cyristalj)
 - **GitHub:** [github.com/cyristal-gems](https://github.com/cyristal-gems)
 - **Email:** [cyrisjoseph@outlook.com](mailto:cyrisjoseph@outlook.com)
+
+## License
+
+Original software code and software documentation are licensed under the
+[MIT License](LICENSE), copyright (c) 2026 Cyristal N. Joseph.
+
+Case datasets, narratives, photographs, posters, geographic data, and other
+source material are not covered by the MIT license. See the
+[license scope and content notice](CONTENT_NOTICE.md) for details before reuse.
